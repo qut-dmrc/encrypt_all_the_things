@@ -95,9 +95,9 @@ Interview with journalist in Turkey with 'off-the-record' content on unencrypted
 
 getting hacked by angry gamergaters on one account, loose all others too
 
-Note: even if something similar might have happened, all examples are made up
-
-Note: 15 minutes in!
+Note:
+* even if something similar might have happened, all examples are made up
+* 15 minutes in!
 
 ---
 
@@ -115,6 +115,6 @@ discuss in groups (5 minutes)
 
 ---
 
-# Next slide
+# Next section
 
 Note: 25 minutes in!
