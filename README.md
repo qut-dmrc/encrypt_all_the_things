@@ -20,4 +20,18 @@ This presentation is to be presented with [reveal-md](https://github.com/webpro/
 
 Enjoy!
 
+### How to edit
+
+presentation.md contains a markdown document representing the presentation. The syntax should become clear from the document itself.
+
+#### New slide
+
+Only speciality is that `___` (three underscores) represents a new slide to the right, while `____` (four underscores) represents a new slide to the bottom.
+
+#### Speaker notes
+
+start a line with `Note:`. When presenting press `S` to view presenter window.
+
+
+
 *At a later date we will upload a PDF version and host it as a website*
