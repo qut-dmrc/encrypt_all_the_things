@@ -110,12 +110,6 @@ https://snitchhunt.org/challenge
 
 ----
 
-# Example password reuse
-
-getting hacked by angry gamergaters on one account, loose all others too
-
-----
-
 # Example IP address/VPN
 
 researching in extremist bulletin boards/social networks
@@ -129,8 +123,32 @@ Iranian homosexual communicates via iMessage but message gets sent via SMS servi
 
 Note: testing notes
 
+----
+
+# Scenario for unencrypted devices
+
+Interview with journalist in Turkey with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
+
+----
+
+# Example password reuse
+
+getting hacked by angry gamergaters on one account, loose all others too
+
+Note: even if something similar might have happened, all examples are made up
+
 ---
+
+# Group activity!
+
+----
+
+Visit https://haveibeenpwned.com/ and look up your most used email address.
+
+----
 
 # Why are you here?
 
 discuss in groups (5 minutes)
+
+---
