@@ -123,8 +123,14 @@ getting harrased in your neighbourhood afterwards
 
 ----
 
+# Scenario for unencrypted communication
 
+Iranian homosexual communicates via iMessage but message gets sent via SMS service -> jail
+
+Note: testing notes
 
 ---
 
-# Test
+# Why are you here?
+
+discuss in groups (5 minutes)
