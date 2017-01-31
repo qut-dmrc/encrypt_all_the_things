@@ -11,11 +11,12 @@ In this hands-on workshop, we address threats a researcher should protect agains
 
 ### How to view
 
-This presentation is to be presented with [reveal-md](https://github.com/webpro/reveal-md).
+This presentation is to be presented with [reveal-md](https://github.com/webpro/reveal-md):
 
-* Install node.js
-* run `npm install -g reveal-md`
-* then `reveal-md encrypt_all_the_things.md`
+* Download or clone this repository,
+* install node.js,
+* run `npm install -g reveal-md`,
+* then in downloaded and extracted folder `reveal-md encrypt_all_the_things.md`.
 
 Enjoy!
 
