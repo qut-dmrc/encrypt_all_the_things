@@ -72,28 +72,36 @@ https://snitchhunt.org/challenge
 
 ----
 
-# worst case scenario revealing IP address/VPN
+# worst case scenarios
+
+----
+
+## weak password reuse
+
+getting Twitter hacked by angry gamergaters, and suddenly your devices are wiped
+
+----
+
+Visit https://haveibeenpwned.com/ and look up your most used email address.
+
+----
+
+## revealing IP address/VPN
 
 researching in extremist bulletin boards/social networks
 getting harrased in your neighbourhood afterwards
 
 ----
 
-# worst case scenario for unencrypted communication
+## unencrypted communication
 
 Iranian protester communicates via iMessage but message gets sent via SMS service
 
 ----
 
-# worst case scenario for unencrypted devices
+## unencrypted devices
 
 interview with journalist in Turkey with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
-
-----
-
-# worst case scenario weak password reuse
-
-getting Twitter hacked by angry gamergaters, and suddenly your devices are wiped
 
 Note:
 * even if something similar might have happened, all examples are made up
@@ -105,13 +113,9 @@ Note:
 
 ----
 
-Visit https://haveibeenpwned.com/ and look up your most used email address.
-
-----
-
 # Why are you here?
 
-discuss in groups (5 minutes)
+What do you want to get out of this session. Discuss in groups (5 minutes)
 
 ---
 
@@ -138,19 +142,34 @@ Note: 25 minutes in!
 
 ### Use a password manager
 
+Note:
+QUESTION: Who is using a password manager?
+Which one?
+
 ----
 
 ## What does it and how?
+
+* stores passwords in an encrypted, i.e. secure file
+* allows you to access all your passwords with a master password and/or keyfile
+* can often generate secure passwords for you
+
+Therefore your passwords will be **strong**,  will **not be reused**, and you don't have to worry about **memorising** them anymore.
 
 ----
 
 ## We recommend
 
-----
-
-# Group activity!
-
-Install a password manager and change one of your passwords
+* KeePass, KeePassX, KeeWeb
+    * Open source +
+    * interoperable +
+    * free +
+    * not so convenient -
+* 1Password
+    * high reputation +
+    * very convenient +
+    * costs money -
+    * closed source -
 
 ----
 
@@ -165,6 +184,8 @@ Install a password manager and change one of your passwords
 ----
 
 ## We recommend
+
+Rather use an app than SMS
 
 ----
 
@@ -190,29 +211,24 @@ While transmitting sensitive information: the men in the middle
 
 ## Solution #1:
 
-### https
-
-----
-
-## What does it and how?
-
-----
-
-## We recommend
-
-----
-
-## Solution #2:
-
 ### PGP encryption
 
 ----
 
 ## What does it and how?
 
+* puts a padlock on anything you want
+* padlock is a 'public key'
+* 'secret key' can open the padlock
+
 ----
 
 ## We recommend
+
+* keybase
+* GPGTools
+* Enigmail for Thunderbird
+* lots of mail clients have GPG support
 
 ----
 
@@ -222,7 +238,7 @@ Get your keybase account with the invitation code we've sent you and encrypt a m
 
 ----
 
-## Solution #3:
+## Solution #2:
 
 ### Secure messenger
 
@@ -230,23 +246,16 @@ Get your keybase account with the invitation code we've sent you and encrypt a m
 
 ## What does it and how?
 
-----
-
-## We recommend
-
-----
-
-## Solution #4:
-
-### VPN 'tunnel'
-
-----
-
-## What does it and how?
+* encrypts message end-to-end per default
+* does **explicitly** not store activity records (metadata)
+* is open source
+* optional: has self-destructing messages
 
 ----
 
 ## We recommend
+
+Signal
 
 ---
 
@@ -258,7 +267,7 @@ Get your keybase account with the invitation code we've sent you and encrypt a m
 
 when researching on the internet:
 
-* metadata retention (by state/institution/ad networks)
+* activity record (metadata) retention (by state/institution/ad networks)
     * by IP
     * by cookies
 * revealing of personal details to website owners
@@ -267,15 +276,53 @@ when researching on the internet:
 
 ## Solution #1:
 
-### VPN + dedicated browser
+### https
 
 ----
 
 ## What does it and how?
 
+* browser checks whether website has a valid certificate ('ID card')
+* encrypts traffic between browser and website
+
 ----
 
 ## We recommend
+
+* check the address bar in your browser
+* https://www.eff.org/https-everywhere
+
+----
+
+# Group activity!
+
+visit https://browserleaks.com
+
+----
+
+## Solution #2:
+
+### VPN 'tunnel'
+
+----
+
+## What does it and how?
+
+* prevents eavesdropping, e.g. in an open WiFi
+* BUT: does not verify certificates ('ID cards')
+* hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with
+* can make you appear to be in another country and circumvent DNS or geo-blocking
+
+----
+
+## We recommend
+
+* should claim not to store activity records
+* should use OpenVPN
+* should have servers in safe jurisdictions
+* if it's too cheap you might pay otherwise
+
+NordVPN and Private Internet Access have a long term high reputation
 
 ----
 
@@ -287,15 +334,21 @@ when researching on the internet:
 
 ## What does it and how?
 
+* provides secure, not easily identifiable browser that doesn't leave traces
+* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
+* does not prevent you from disclosing your identity e.g. by logging into Facebook
+
 ----
 
 ## We recommend
+
+Use for high risk research, not for everyday use.
 
 ----
 
 # Group activity!
 
-Install Tor Browser and visit something dodgy, e.g. Breitbart News.
+Install Tor Browser and visit https://browserleaks.com again.
 
 ---
 
@@ -335,17 +388,20 @@ AND
 
 ----
 
-## What does it and how?
-
-----
-
 ## We recommend
+
+* encryption provided by OS
+* GPG
+* keybase
+* Cryptomator/Boxcryptor (especially for synchronised cloud storage such as Dropbox)
+
+MAKE SURE YOU NEVER WILL LOOSE YOUR KEYS OR PASSPHRASES!!!
 
 ----
 
 # Group activity!
 
-Install Cryptomator and copy a file to an encrypted vault. Don't forget to save your password in your password manager!
+Encrypt a file with keybase for you/for somebody else.
 
 ---
 
