@@ -72,28 +72,26 @@ https://snitchhunt.org/challenge
 
 ----
 
-# Example IP address/VPN
+# worst case scenario revealing IP address/VPN
 
 researching in extremist bulletin boards/social networks
 getting harrased in your neighbourhood afterwards
 
 ----
 
-# Scenario for unencrypted communication
+# worst case scenario for unencrypted communication
 
-Iranian homosexual communicates via iMessage but message gets sent via SMS service -> jail
-
-Note: testing notes
+Iranian protester communicates via iMessage but message gets sent via SMS service
 
 ----
 
-# Scenario for unencrypted devices
+# worst case scenario for unencrypted devices
 
-Interview with journalist in Turkey with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
+interview with journalist in Turkey with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
 
 ----
 
-# Example password reuse
+# worst case scenario weak password reuse
 
 getting Twitter hacked by angry gamergaters, and suddenly your devices are wiped
 
@@ -142,9 +140,37 @@ Note: 25 minutes in!
 
 ----
 
+## What does it and how?
+
+----
+
+## We recommend
+
+----
+
+# Group activity!
+
+Install a password manager and change one of your passwords
+
+----
+
 ## Solution #2:
 
 ### Use 2-factor-authentication
+
+----
+
+## What does it and how?
+
+----
+
+## We recommend
+
+----
+
+# Group activity!
+
+Find out whether one of your most used services provides 2-factor-authentication
 
 ---
 
@@ -168,9 +194,31 @@ While transmitting sensitive information: the men in the middle
 
 ----
 
+## What does it and how?
+
+----
+
+## We recommend
+
+----
+
 ## Solution #2:
 
 ### PGP encryption
+
+----
+
+## What does it and how?
+
+----
+
+## We recommend
+
+----
+
+# Group activity!
+
+Get your keybase account with the invitation code we've sent you and encrypt a message to somebody else in this workshop. Send it to their email address.
 
 ----
 
@@ -180,9 +228,25 @@ While transmitting sensitive information: the men in the middle
 
 ----
 
+## What does it and how?
+
+----
+
+## We recommend
+
+----
+
 ## Solution #4:
 
 ### VPN 'tunnel'
+
+----
+
+## What does it and how?
+
+----
+
+## We recommend
 
 ---
 
@@ -207,9 +271,31 @@ when researching on the internet:
 
 ----
 
+## What does it and how?
+
+----
+
+## We recommend
+
+----
+
 ## Solution #2:
 
 ### Tor Browser
+
+----
+
+## What does it and how?
+
+----
+
+## We recommend
+
+----
+
+# Group activity!
+
+Install Tor Browser and visit something dodgy, e.g. Breitbart News.
 
 ---
 
@@ -246,6 +332,30 @@ AND
 
 **... but don't forget your keys.**
 *(hint: use a password manager)*
+
+----
+
+## What does it and how?
+
+----
+
+## We recommend
+
+----
+
+# Group activity!
+
+Install Cryptomator and copy a file to an encrypted vault. Don't forget to save your password in your password manager!
+
+---
+
+# How to choose a tool?
+
+----
+
+1. Open Source?
+2. independent security audit/reputation?
+3. will you actually use it?
 
 ---
 
