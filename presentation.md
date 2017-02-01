@@ -390,12 +390,13 @@ AND
 
 ## We recommend
 
-* encryption provided by OS
-* GPG
-* keybase
-* Cryptomator/Boxcryptor (especially for synchronised cloud storage such as Dropbox)
+* full device/disk/USB stick … encryption (mostly provided by OS)
+* for files in the cloud:
+    * Cryptomator
+    * keybase
+    * disk image encryption by your operating system
 
-MAKE SURE YOU NEVER WILL LOOSE YOUR KEYS OR PASSPHRASES!!!
+MAKE SURE YOU NEVER WILL LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
 
 ----
 
