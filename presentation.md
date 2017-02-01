@@ -95,7 +95,7 @@ Interview with journalist in Turkey with 'off-the-record' content on unencrypted
 
 # Example password reuse
 
-getting hacked by angry gamergaters on one account, loose all others too
+getting Twitter hacked by angry gamergaters, and suddenly your devices are wiped
 
 Note:
 * even if something similar might have happened, all examples are made up
@@ -117,6 +117,143 @@ discuss in groups (5 minutes)
 
 ---
 
-# Next section
+# Passwords
+one ring to rule you all
+
+----
+
+## Main risks
+
+When you've been pwned:
+
+* common password (qwerty, 12345, monkey, love, ...) <!-- .element: class="fragment" -->
+* easy to guess (qwerty12345, your name, your birthday, your partners birthday, your postcode, ) <!-- .element: class="fragment" -->
+* reuse of passwords <!-- .element: class="fragment" -->
+* storing password in an unsafe place (i.e. unencrypted and accessible from outside) <!-- .element: class="fragment" -->
+* forgetting your password <!-- .element: class="fragment" -->
 
 Note: 25 minutes in!
+
+----
+
+## Solution #1:
+
+### Use a password manager
+
+----
+
+## Solution #2:
+
+### Use 2-factor-authentication
+
+---
+
+# Communication
+
+----
+
+## Main risks
+
+While transmitting sensitive information: the men in the middle
+
+* others in open/untrusted WiFi <!-- .element: class="fragment" -->
+* your email/messaging provider or anybody who has hacked or pretends to be them <!-- .element: class="fragment" -->
+* authorities who subpoena any of your communication providers <!-- .element: class="fragment" -->
+
+----
+
+## Solution #1:
+
+### https
+
+----
+
+## Solution #2:
+
+### PGP encryption
+
+----
+
+## Solution #3:
+
+### Secure messenger
+
+----
+
+## Solution #4:
+
+### VPN 'tunnel'
+
+---
+
+# Researcher privacy
+
+----
+
+## Main risks
+
+when researching on the internet:
+
+* metadata retention (by state/institution/ad networks)
+    * by IP
+    * by cookies
+* revealing of personal details to website owners
+
+----
+
+## Solution #1:
+
+### VPN + dedicated browser
+
+----
+
+## Solution #2:
+
+### Tor Browser
+
+---
+
+# Data storage
+
+----
+
+## Main risks
+
+when storing data:
+
+* unauthorised access to data, e.g. in the cloud
+* unwanted access to devices, e.g. at airports
+* data loss
+* lost access
+
+----
+
+## Solution
+
+----
+
+# backup, backup, backup
+
+3 independent copies
+
+----
+
+AND
+
+----
+
+![](http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png)
+
+**... but don't forget your keys.**
+*(hint: use a password manager)*
+
+---
+
+Questions?
+
+---
+
+![](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
+
+@brendam
+@flxvctr
