@@ -5,6 +5,8 @@ theme: css/theme/simple.css
 
 ![](http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png)
 
+**... but don't forget your keys.**
+
 *(Digital Privacy & Security for Researchers)*
 
 DMRC Summer School 2017

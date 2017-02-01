@@ -18,6 +18,8 @@ This presentation is to be presented with [reveal-md](https://github.com/webpro/
 * run `npm install -g reveal-md`,
 * then in downloaded and extracted folder `reveal-md encrypt_all_the_things.md`.
 
+*At a later date we will upload a PDF version and host it as a website*
+
 Enjoy!
 
 ### How to edit
@@ -31,7 +33,3 @@ Only speciality is that `___` (three underscores) represents a new slide to the 
 #### Speaker notes
 
 start a line with `Note:`. When presenting press `S` to view presenter window.
-
-
-
-*At a later date we will upload a PDF version and host it as a website*
