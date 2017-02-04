@@ -13,9 +13,16 @@ DMRC Summer School 2017
 
 Brenda Moon & Felix Victor Münch
 
+Note:
+* FIXME: credits for images in presentation?
+
 ---
 
 # Why are we here?
+
+Note:
+* Over the next 2 hours we are going to explore common security and privacy concerns for researchers & some solutions to them.
+* To get started thinking about security & privacy let's run through a few examples.
 
 ----
 
@@ -64,11 +71,20 @@ FINN COBURN CHIEF DATA OFFICER COMPUTER CRIME SQUAD Tel:
 
 https://snitchhunt.org/challenge
 
+Note:
+* One example of a privacy and security risk faced by everyone, not just researchers is the retention of metadata and the unexpected ways in which it can be used.
+* Would any of you like to suggest a definition of metadata?
+* Metadata is activity records - records of what you have done and when, but not the content of what you have done.
+
 ----
 
 <img src='https://dl.dropboxusercontent.com/s/xfeqp79r5lv1wxq/2017-01-31%20at%203.23%20pm.png' width="70%">
 
 (http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668)
+
+Note:
+* Snitchhunt is a game designed by Gabor Szathmari of CryptoParty Sydney to demonstrate how metadata that is kept on every one of us can be used to track our movements.
+* The original website has been taken down but Rosie Williams (@info_aus) has made a new online version (link included in resources at the end of this presentation)
 
 ----
 
@@ -78,18 +94,26 @@ https://snitchhunt.org/challenge
 
 ## weak password reuse
 
-getting Twitter hacked by angry gamergaters, and suddenly your devices are wiped
+your Twitter accounts is hacked by angry gamergaters, and suddenly your devices are wiped
 
 ----
 
+## Activity
+
 Visit https://haveibeenpwned.com/ and look up your most used email address.
+
+Note:
+* demo first on our own account.
+* explain about use of coloured stickynotes - put up red one if you need help, green one if you have finished activity.
+* now go ahead and check your email
+* FIXME: What heading level should this have?
 
 ----
 
 ## revealing IP address/VPN
 
 researching in extremist bulletin boards/social networks
-getting harrased in your neighbourhood afterwards
+getting harassed in your neighbourhood afterwards
 
 ----
 
@@ -115,7 +139,14 @@ Note:
 
 # Why are you here?
 
-What do you want to get out of this session. Discuss in groups (5 minutes)
+What do you want to get out of this session?
+What privacy or security issues might effect your research?
+Discuss in groups (5 minutes)
+
+Note:
+* break into groups
+* discuss what privacy or security issues might effect your research & summarise on butchers paper
+* each group report back
 
 ---
 
@@ -143,18 +174,22 @@ Note: 25 minutes in!
 ### Use a password manager
 
 Note:
-QUESTION: Who is using a password manager?
-Which one?
+QUESTIONS:
+* Who is using a password manager?
+* Which one?
 
 ----
 
-## What does it and how?
+## What is a password manager?
 
-* stores passwords in an encrypted, i.e. secure file
+* stores passwords in an encrypted (i.e. secure) file
 * allows you to access all your passwords with a master password and/or keyfile
 * can often generate secure passwords for you
 
 Therefore your passwords will be **strong**,  will **not be reused**, and you don't have to worry about **memorising** them anymore.
+
+Note:
+* FIXME: need to define encrypted & keyfile
 
 ----
 
@@ -163,6 +198,7 @@ Therefore your passwords will be **strong**,  will **not be reused**, and you do
 * KeePass, KeePassX, KeeWeb
     * Open source +
     * interoperable +
+    * high reputation +
     * free +
     * not so convenient -
 * 1Password
@@ -170,6 +206,9 @@ Therefore your passwords will be **strong**,  will **not be reused**, and you do
     * very convenient +
     * costs money -
     * closed source -
+
+Note:
+* links to all these are provided on the resources page at end of presentation
 
 ----
 
@@ -179,19 +218,59 @@ Therefore your passwords will be **strong**,  will **not be reused**, and you do
 
 ----
 
-## What does it and how?
+## What is 2-factor authentication?
+
+Something you know and something you have.
+
+Note:
+FIXME: Needs content!
+
+----
+
+## SMS is not a secure channel!
+
+![Due to today's incident, it's possible some SMS messages were incorrectly delivered. All messages will be held while we resolve the issue.](TelstraSMSProblemsTweet.png)
+
+Note:
+* Last week Telstra outage caused by fire in Sydney exchange resulted in many SMS's being delivered to wrong phones
+
+----
+
+## SMS problems
+
+* misdelivery
+* unauthorised phone number porting
+* not available during phone outages
+
+Note:
+* There has been examples in news lately of people repeatedly having their umbers ported just using their name and DOB as authorisation
+* Same Telstra outage last week stopped people receiving SMS for 2FA
 
 ----
 
 ## We recommend
 
-Rather use an app than SMS
+Use an app for 2 factor authentication
+
+* [FreeOTP](https://freeotp.github.io/)
+* [Google Authenticator (Android/iPhone/BlackBerry)](https://support.google.com/accounts/answer/1066447?hl=en)
+* [Amazon AWS MFA (Android)](https://www.amazon.com/gp/product/B0061MU68M)
+* [Authenticator (Windows Phone 7)](https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj)
+
+Note:
+* FIXME:
+  * Not sure about FreeOTP - haven't used it
 
 ----
 
 # Group activity!
 
 Find out whether one of your most used services provides 2-factor-authentication
+
+Note:
+* break into groups
+* check if service supports 2fa & summarise on butchers paper
+* each group report back
 
 ---
 
@@ -213,9 +292,11 @@ While transmitting sensitive information: the men in the middle
 
 ### PGP encryption
 
+"Pretty Good Privacy"
+
 ----
 
-## What does it and how?
+## What is PGP encryption?
 
 * puts a padlock on anything you want
 * padlock is a 'public key'
@@ -225,9 +306,9 @@ While transmitting sensitive information: the men in the middle
 
 ## We recommend
 
-* keybase
-* GPGTools
-* Enigmail for Thunderbird
+* [keybase](https://keybase.io/)
+* [GPGTools](https://gpgtools.org/)
+* [Enigmail for Thunderbird](https://www.enigmail.net/index.php/en/)
 * lots of mail clients have GPG support
 
 ----
@@ -236,27 +317,34 @@ While transmitting sensitive information: the men in the middle
 
 Get your keybase account with the invitation code we've sent you and encrypt a message to somebody else in this workshop. Send it to their email address.
 
+Note:
+* FIXME: I think we need to add screenshots & instructions for this? Or demo it - need a slide for the demo then I think.
+* FIXME: Explain about verifying that the key belongs to who you think it does - need to do this more thoroughly for more critical communication
 ----
 
 ## Solution #2:
 
-### Secure messenger
+### Secure messenger / Private messaging
 
 ----
 
-## What does it and how?
+## What is a secure messenger?
 
 * encrypts message end-to-end per default
-* does **explicitly** not store activity records (metadata)
+* **explicitly** does not store activity records (metadata)
 * is open source
 * optional: has self-destructing messages
 
+Note:
+FIXME: define end-to-end, self-destructing
 ----
 
 ## We recommend
 
-Signal
+[Signal](https://whispersystems.org/)
 
+Note:
+* make sure you confirm that you are speaking to who you expect to be at the other end, and that the encryption is working properly before you exchange any confidential information.
 ---
 
 # Researcher privacy
@@ -268,10 +356,17 @@ Signal
 when researching on the internet:
 
 * activity record (metadata) retention (by state/institution/ad networks)
-    * by IP
-    * by cookies
+    * by IP address
+    * by browser cookies
 * revealing of personal details to website owners
+* other forms of browser finger printing
 
+Note:
+* your IP address may reveal your location, and stays the same at least during a single session, and possibly all the time. This means it can be used to track your visits across multiple websites
+* browser cookies are stored on your computer and used to customise your experience of a website, but can also be used to track your use of a website and even between websites.
+* if you login to a website you have provide your account details to that website and to your IP address
+* new ways of identifying website visits are always being explored, for example using which fonts your browser reports as a finger print to identify your browser.
+FIXME: define IP, define cookies
 ----
 
 ## Solution #1:
@@ -280,7 +375,7 @@ when researching on the internet:
 
 ----
 
-## What does it and how?
+## What is https?
 
 * browser checks whether website has a valid certificate ('ID card')
 * encrypts traffic between browser and website
@@ -292,6 +387,8 @@ when researching on the internet:
 * check the address bar in your browser
 * https://www.eff.org/https-everywhere
 
+Note:
+FIXME: Images of Browser with/without valid SSL
 ----
 
 # Group activity!
@@ -306,7 +403,7 @@ visit https://browserleaks.com
 
 ----
 
-## What does it and how?
+## What is a VPN?
 
 * prevents eavesdropping, e.g. in an open WiFi
 * BUT: does not verify certificates ('ID cards')
@@ -317,12 +414,16 @@ visit https://browserleaks.com
 
 ## We recommend
 
-* should claim not to store activity records
-* should use OpenVPN
-* should have servers in safe jurisdictions
-* if it's too cheap you might pay otherwise
+Choose a VPN service which:
 
-NordVPN and Private Internet Access have a long term high reputation
+* claims not to store activity records (hard to verify)
+* uses OpenVPN
+* has servers in safe jurisdictions
+* not insert advertising into your browsing stream
+
+Remember that if it's too cheap you might be paying in other ways.
+
+[NordVPN](https://nordvpn.com/) and [Private Internet Access](https://www.privateinternetaccess.com/) both have a long term high reputation
 
 ----
 
@@ -332,7 +433,7 @@ NordVPN and Private Internet Access have a long term high reputation
 
 ----
 
-## What does it and how?
+## What is Tor Browser?
 
 * provides secure, not easily identifiable browser that doesn't leave traces
 * onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
@@ -349,6 +450,13 @@ Use for high risk research, not for everyday use.
 # Group activity!
 
 Install Tor Browser and visit https://browserleaks.com again.
+
+Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
+
+Note:
+* Explain about using signatures to verify downloads?
+* FIXME: Notes/ demo of how to install Tor Browser?
+* What did you find was different in browserleaks report?
 
 ---
 
@@ -392,12 +500,14 @@ AND
 
 * full device/disk/USB stick … encryption (mostly provided by OS)
 * for files in the cloud:
-    * Cryptomator
-    * keybase
+    * [Cryptomator](https://cryptomator.org/)
+    * [keybase](https://keybase.io/)
     * disk image encryption by your operating system
 
-MAKE SURE YOU NEVER WILL LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
+MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
 
+Note:
+* Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
 ----
 
 # Group activity!
@@ -415,9 +525,81 @@ Encrypt a file with keybase for you/for somebody else.
 3. will you actually use it?
 
 ---
+# Where to from here?
+
+At end of the presentation there is a list of all the software we've mentioned today and a list of useful websites for more information.
+
+Depending on the level of risk to you or your research participants you may need to seek advice from a security/privacy expert before you begin your research.
+
+Note:
+* Risks/Solutions are changing over time, so important to get current advice before you start your research.
+---
 
 Questions?
 
+---
+
+# Resources
+
+----
+
+## Software Tools
+* 1Password https://1password.com/
+* Amazon AWS MFA (Android) https://www.amazon.com/gp/product/B0061MU68M
+* Authenticator (Windows Phone 7) https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj
+* Browser leaks https://browserleaks.com
+* Cryptomator https://cryptomator.org/)
+* Enigmail for Thunderbird https://www.enigmail.net/index.php/en/
+* FreeOTP https://freeotp.github.io/
+* Google Authenticator (Android/iPhone/BlackBerry) https://support.google.com/accounts/answer/1066447?hl=en
+* GPGTools https://gpgtools.org/
+* HTTPS Everywhere https://www.eff.org/https-everywhere
+* keybase https://keybase.io/
+* KeePass http://keepass.info/
+* KeePassX https://www.keepassx.org/
+* KeeWeb https://keeweb.info/
+* NordVPN https://nordvpn.com/
+* Private Internet Access https://www.privateinternetaccess.com/
+* Signal https://whispersystems.org/
+* Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
+
+Note:
+FIXME: These are alpha sorted - wonder if they should be by type?
+
+----
+
+## websites
+
+* CryptoParty https://www.cryptoparty.in/
+* Electronic Freedom Foundation (EFF)
+  * Privacy https://www.eff.org/issues/privacy
+  * Surveillance Self-Defense https://ssd.eff.org/
+    This has overviews, tutorials, and detailed guides for specific situations.
+* Snitch hunt Game http://whistleblower.network/snitch/index.php
+
+
+Note:
+FIXME: Check if indenting list works
+FIXME: more sites?
+---
+
+# Glossary of terms
+
+* browser cookies
+* encryption
+* end-to-end
+* https: HTTP over SSL https://en.wikipedia.org/wiki/HTTPS
+* IP address
+* keyfile
+* metadata
+* ssl or tsl: Secure Sockets Layer / Transport Layer Security https://en.wikipedia.org/wiki/Transport_Layer_Security
+* threat model
+* two factor authentication
+
+Note:
+FIXME:
+* Add definitions for all technical terms here - see EFF website - maybe there is a glossary there we can just link to?
+* short definition & link to wikipedia?
 ---
 
 ![](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
