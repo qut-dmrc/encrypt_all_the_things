@@ -320,6 +320,7 @@ Get your keybase account with the invitation code we've sent you and encrypt a m
 Note:
 * FIXME: I think we need to add screenshots & instructions for this? Or demo it - need a slide for the demo then I think.
 * FIXME: Explain about verifying that the key belongs to who you think it does - need to do this more thoroughly for more critical communication
+
 ----
 
 ## Solution #2:
@@ -337,6 +338,7 @@ Note:
 
 Note:
 FIXME: define end-to-end, self-destructing
+
 ----
 
 ## We recommend
@@ -345,6 +347,7 @@ FIXME: define end-to-end, self-destructing
 
 Note:
 * make sure you confirm that you are speaking to who you expect to be at the other end, and that the encryption is working properly before you exchange any confidential information.
+
 ---
 
 # Researcher privacy
@@ -508,6 +511,7 @@ MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
 
 Note:
 * Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
+
 ----
 
 # Group activity!
@@ -525,6 +529,7 @@ Encrypt a file with keybase for you/for somebody else.
 3. will you actually use it?
 
 ---
+
 # Where to from here?
 
 At end of the presentation there is a list of all the software we've mentioned today and a list of useful websites for more information.
@@ -533,6 +538,7 @@ Depending on the level of risk to you or your research participants you may need
 
 Note:
 * Risks/Solutions are changing over time, so important to get current advice before you start your research.
+
 ---
 
 Questions?
@@ -581,6 +587,7 @@ FIXME: These are alpha sorted - wonder if they should be by type?
 Note:
 FIXME: Check if indenting list works
 FIXME: more sites?
+
 ---
 
 # Glossary of terms
@@ -600,6 +607,7 @@ Note:
 FIXME:
 * Add definitions for all technical terms here - see EFF website - maybe there is a glossary there we can just link to?
 * short definition & link to wikipedia?
+
 ---
 
 ![](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
