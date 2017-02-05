@@ -9,11 +9,13 @@ theme: css/theme/simple.css
 
 *(Digital Privacy & Security for Researchers)*
 
-DMRC Summer School 2017
+QUT DMRC Summer School 2017
 
 Brenda Moon & Felix Victor Münch
 
-<font size=0.5>image: http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png</font>
+<font size=0.5>image: http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png
+(based on original by http://hyperboleandahalf.blogspot.com.au/)
+</font>
 
 ---
 
@@ -105,7 +107,6 @@ Note:
 * demo first on our own account.
 * explain about use of coloured stickynotes - put up red one if you need help, green one if you have finished activity.
 * now go ahead and check your email
-* FIXME: What heading level should this have?
 
 ----
 
@@ -124,7 +125,7 @@ communication with protesters in an authoritarian surveillance state via iMessag
 
 ## unencrypted devices
 
-interview with journalist in country opressing the press with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
+interview with journalist in country oppressing the press with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
 
 Note:
 * even if something similar might have happened, all examples are made up
@@ -217,7 +218,7 @@ Note:
 
 ## What is 2-factor authentication?
 
-* comparable to TAN system for online banking<!-- .element: class="fragment" -->
+* comparable to TAN system for online banking (transaction authentication number - one time password for banking)<!-- .element: class="fragment" -->
 * requires a second form of authentication additionally to a password <!-- .element: class="fragment" -->
 * this second element changes over time<!-- .element: class="fragment" -->
 * most secure forms of this are bound to a device you carry with you, e.g. an app on your phone, or even more secure on a dedicated device<!-- .element: class="fragment" -->
@@ -316,7 +317,7 @@ In most use cases you sign data with your secret key (put your verifiable signat
 
 # Group activity!
 
-Get your keybase account with the invitation code we've sent you and encrypt a message to somebody else in this workshop. Send it to their email address.
+Get your keybase account with the invitation code we've sent you and encrypt a message to somebody else in this workshop. Send it to their email address. Decrypt a message that someone sends you.
 
 Note:
 * FIXME: I think we need to add screenshots & instructions for this? Or demo it - need a slide for the demo then I think.
@@ -617,3 +618,5 @@ Questions?
 
 @brendam
 @flxvctr
+
+QUT DMRC Summer School 2017
