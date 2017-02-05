@@ -3,7 +3,7 @@ title: Encrypt all the things!!!
 theme: css/theme/simple.css
 ---
 
-![](http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png)
+<img src="http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png" width=40%/>
 
 **... but don't forget your keys.**
 
@@ -13,8 +13,7 @@ DMRC Summer School 2017
 
 Brenda Moon & Felix Victor Münch
 
-Note:
-* FIXME: credits for images in presentation?
+<font size=0.5>image: http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png</font>
 
 ---
 
@@ -98,7 +97,7 @@ your Twitter accounts is hacked by angry gamergaters, and suddenly your devices 
 
 ----
 
-## Activity
+### Activity
 
 Visit https://haveibeenpwned.com/ and look up your most used email address.
 
@@ -119,16 +118,17 @@ getting harassed in your neighbourhood afterwards
 
 ## unencrypted communication
 
-Iranian protester communicates via iMessage but message gets sent via SMS service
+communication with protesters in an authoritarian surveillance state via iMessage but message gets sent via SMS service
 
 ----
 
 ## unencrypted devices
 
-interview with journalist in Turkey with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
+interview with journalist in country opressing the press with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
 
 Note:
 * even if something similar might have happened, all examples are made up
+* also: Felix's stolen hard drive
 * 15 minutes in!
 
 ---
@@ -182,14 +182,11 @@ QUESTIONS:
 
 ## What is a password manager?
 
-* stores passwords in an encrypted (i.e. secure) file
-* allows you to access all your passwords with a master password and/or keyfile
-* can often generate secure passwords for you
+* allows you to access all your passwords with a master password and/or keyfile ("secret file", e.g. on a USB stick) <!-- .element: class="fragment" -->
+* stores passwords in an encrypted file (i.e. not readable without a key) <!-- .element: class="fragment" -->
+* can often generate secure passwords for you <!-- .element: class="fragment" -->
 
-Therefore your passwords will be **strong**,  will **not be reused**, and you don't have to worry about **memorising** them anymore.
-
-Note:
-* FIXME: need to define encrypted & keyfile
+Therefore your passwords will be strong, will not be reused, and you don't have to worry about memorising them anymore. <!-- .element: class="fragment" -->
 
 ----
 
@@ -220,10 +217,11 @@ Note:
 
 ## What is 2-factor authentication?
 
-Something you know and something you have.
-
-Note:
-FIXME: Needs content!
+* comparable to TAN system for online banking<!-- .element: class="fragment" -->
+* requires a second form of authentication additionally to a password <!-- .element: class="fragment" -->
+* this second element changes over time<!-- .element: class="fragment" -->
+* most secure forms of this are bound to a device you carry with you, e.g. an app on your phone, or even more secure on a dedicated device<!-- .element: class="fragment" -->
+* most major internet services have it, if not this might be a warning sign<!-- .element: class="fragment" -->
 
 ----
 
@@ -256,10 +254,6 @@ Use an app for 2 factor authentication
 * [Google Authenticator (Android/iPhone/BlackBerry)](https://support.google.com/accounts/answer/1066447?hl=en)
 * [Amazon AWS MFA (Android)](https://www.amazon.com/gp/product/B0061MU68M)
 * [Authenticator (Windows Phone 7)](https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj)
-
-Note:
-* FIXME:
-  * Not sure about FreeOTP - haven't used it
 
 ----
 
@@ -298,9 +292,16 @@ While transmitting sensitive information: the men in the middle
 
 ## What is PGP encryption?
 
-* puts a padlock on anything you want
-* padlock is a 'public key'
-* 'secret key' can open the padlock
+* puts a padlock on any data you want<!-- .element: class="fragment" -->
+* makes it possible to sign data<!-- .element: class="fragment" -->
+* padlock is a 'public key'<!-- .element: class="fragment" -->
+* 'secret key' can open the padlock and sign data<!-- .element: class="fragment" -->
+
+----
+
+## What is PGP encryption?
+
+In most use cases you sign data with your secret key (put your verifiable signature on it), encrypt it with the public key of a recipient (put a padlock on it), and the recipient decrypts the data with his secret key (key for the padlock), while being able to verify your signature with your public key.
 
 ----
 
@@ -331,13 +332,10 @@ Note:
 
 ## What is a secure messenger?
 
-* encrypts message end-to-end per default
-* **explicitly** does not store activity records (metadata)
+* encrypts message end-to-end per default (i.e. messages are only readable by sender and recipient, not by the message service provider)
+* explicitly does not store activity records (metadata)
 * is open source
-* optional: has self-destructing messages
-
-Note:
-FIXME: define end-to-end, self-destructing
+* optional: has self-destructing messages (i.e. messages are deleted on both ends after a pre-defined timespan)
 
 ----
 
@@ -359,8 +357,8 @@ Note:
 when researching on the internet:
 
 * activity record (metadata) retention (by state/institution/ad networks)
-    * by IP address
-    * by browser cookies
+    * by IP address (like a 'phone number' for your computer)
+    * by browser cookies (like customer cards in shops, just for your browser)
 * revealing of personal details to website owners
 * other forms of browser finger printing
 
@@ -369,7 +367,7 @@ Note:
 * browser cookies are stored on your computer and used to customise your experience of a website, but can also be used to track your use of a website and even between websites.
 * if you login to a website you have provide your account details to that website and to your IP address
 * new ways of identifying website visits are always being explored, for example using which fonts your browser reports as a finger print to identify your browser.
-FIXME: define IP, define cookies
+
 ----
 
 ## Solution #1:
@@ -390,8 +388,10 @@ FIXME: define IP, define cookies
 * check the address bar in your browser
 * https://www.eff.org/https-everywhere
 
-Note:
-FIXME: Images of Browser with/without valid SSL
+![](https://dl.dropboxusercontent.com/s/64u41gygdnzk0k8/2017-02-05%20at%201.41%20pm.png)
+
+Examples for bad certificates: https://badssl.com/
+
 ----
 
 # Group activity!
@@ -458,7 +458,6 @@ Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
 
 Note:
 * Explain about using signatures to verify downloads?
-* FIXME: Notes/ demo of how to install Tor Browser?
 * What did you find was different in browserleaks report?
 
 ---
@@ -549,28 +548,41 @@ Questions?
 
 ----
 
-## Software Tools
+## Password manager
+
 * 1Password https://1password.com/
-* Amazon AWS MFA (Android) https://www.amazon.com/gp/product/B0061MU68M
-* Authenticator (Windows Phone 7) https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj
-* Browser leaks https://browserleaks.com
-* Cryptomator https://cryptomator.org/)
-* Enigmail for Thunderbird https://www.enigmail.net/index.php/en/
-* FreeOTP https://freeotp.github.io/
-* Google Authenticator (Android/iPhone/BlackBerry) https://support.google.com/accounts/answer/1066447?hl=en
-* GPGTools https://gpgtools.org/
-* HTTPS Everywhere https://www.eff.org/https-everywhere
-* keybase https://keybase.io/
 * KeePass http://keepass.info/
 * KeePassX https://www.keepassx.org/
 * KeeWeb https://keeweb.info/
+
+----
+
+## 2-factor-authentication
+
+* Amazon AWS MFA (Android) https://www.amazon.com/gp/product/B0061MU68M
+* Authenticator (Windows Phone 7) https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj
+* FreeOTP https://freeotp.github.io/
+* Google Authenticator (Android/iPhone/BlackBerry) https://support.google.com/accounts/answer/1066447?hl=en
+
+----
+
+## Privacy
+
+* Browser leaks https://browserleaks.com
+* HTTPS Everywhere https://www.eff.org/https-everywhere
 * NordVPN https://nordvpn.com/
 * Private Internet Access https://www.privateinternetaccess.com/
-* Signal https://whispersystems.org/
 * Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
 
-Note:
-FIXME: These are alpha sorted - wonder if they should be by type?
+----
+
+## file/device/communication encryption
+
+* Cryptomator https://cryptomator.org/
+* Enigmail for Thunderbird https://www.enigmail.net/index.php/en/
+* GPGTools https://gpgtools.org/
+* keybase https://keybase.io/
+* Signal https://whispersystems.org/
 
 ----
 
@@ -581,12 +593,7 @@ FIXME: These are alpha sorted - wonder if they should be by type?
   * Privacy https://www.eff.org/issues/privacy
   * Surveillance Self-Defense https://ssd.eff.org/
     This has overviews, tutorials, and detailed guides for specific situations.
-* Snitch hunt Game http://whistleblower.network/snitch/index.php
-
-
-Note:
-FIXME: Check if indenting list works
-FIXME: more sites?
+* Snitch Hunt Game http://whistleblower.network/snitch/index.php
 
 ---
 
