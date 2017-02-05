@@ -599,21 +599,17 @@ Questions?
 
 # Glossary of terms
 
-* browser cookies
-* encryption
-* end-to-end
-* https: HTTP over SSL https://en.wikipedia.org/wiki/HTTPS
-* IP address
-* keyfile
-* metadata
-* ssl or tsl: Secure Sockets Layer / Transport Layer Security https://en.wikipedia.org/wiki/Transport_Layer_Security
-* threat model
-* two factor authentication
+* browser cookies: like customer cards for your browser to store information about you that can be read by the website when you return
+* encryption: making data practically unreadable without another piece of data (see keyfile) and/or password that's usually kept secret
+* end-to-end encryption: encryption from a senders device to a recipient device without intermediaries being able to decrypt
 
-Note:
-FIXME:
-* Add definitions for all technical terms here - see EFF website - maybe there is a glossary there we can just link to?
-* short definition & link to wikipedia?
+----
+
+* https: HTTP over SSL https://en.wikipedia.org/wiki/HTTPS
+* IP address: number to identify your computer/router to another computer, mostly a server serving you a website
+* keyfile: think of it as a password, but in a file.
+* metadata: activity records (https://twitter.com/Snowden/status/661305566967562240) or more detailed: https://ssd.eff.org/en/glossary/metadata
+* ssl or tsl: Secure Sockets Layer / Transport Layer Security https://en.wikipedia.org/wiki/Transport_Layer_Security
 
 ---
 
