@@ -24,14 +24,18 @@ Brenda Moon & Felix Victor Münch
 Note:
 * Over the next 2 hours we are going to explore common security and privacy concerns for researchers & some solutions to them.
 * To get started thinking about security & privacy let's run through a few examples.
-
+* use of coloured stickynotes - red one: help, green one: finished activity.
+* asking questions
 ----
 
 ## Metadata retention
 
 *The Assignment*
 
-You are on the train heading home when your phone starts buzzing. You got a text from your boss, who is asking you to take a look at your work emails. You reluctantly open your mailbox only to find the following email:
+You, a young data analyst for the Australian police, are on the train heading home when your phone starts buzzing. You got a text from your boss, who is asking you to take a look at your work emails. You reluctantly open your mailbox only to find the following email:
+
+Notes:
+* imagine you're a police agent
 
 ----
 
@@ -77,6 +81,8 @@ Note:
 * Would any of you like to suggest a definition of metadata?
 * Metadata is activity records - records of what you have done and when, but not the content of what you have done.
 
+FIXME: spread over two slides instead of scrolling
+
 ----
 
 <img src='https://dl.dropboxusercontent.com/s/xfeqp79r5lv1wxq/2017-01-31%20at%203.23%20pm.png' width="70%">
@@ -105,13 +111,13 @@ your Twitter accounts is hacked by angry gamergaters, and suddenly your devices 
 Visit https://haveibeenpwned.com/ and look up your most used email address.
 
 Note:
+* FIXME: Define pwned - 'Owned'
 * demo first on our own account.
-* explain about use of coloured stickynotes - put up red one if you need help, green one if you have finished activity.
 * now go ahead and check your email
 
 ----
 
-## revealing IP address/VPN
+## revealing IP address
 
 researching in extremist bulletin boards/social networks
 getting harassed in your neighbourhood afterwards
@@ -208,19 +214,20 @@ Therefore your passwords will be strong, will not be reused, and you don't have 
 
 Note:
 * links to all these are provided on the resources page at end of presentation
+* not to much detail
 HANDOVER
 
 ----
 
 ## Solution #2:
 
-### Use 2-factor-authentication
+### Use 2-factor authentication
 
 ----
 
 ## What is 2-factor authentication?
 
-* comparable to TAN system for online banking (transaction authentication number - one time password for banking)<!-- .element: class="fragment" -->
+* comparable to one time passwords for online banking (TAN = transaction authentication number)<!-- .element: class="fragment" -->
 * requires a second form of authentication additionally to a password <!-- .element: class="fragment" -->
 * this second element changes over time<!-- .element: class="fragment" -->
 * most secure forms of this are bound to a device you carry with you, e.g. an app on your phone, or even more secure on a dedicated device<!-- .element: class="fragment" -->
@@ -233,7 +240,7 @@ HANDOVER
 ![Due to today's incident, it's possible some SMS messages were incorrectly delivered. All messages will be held while we resolve the issue.](TelstraSMSProblemsTweet.png)
 
 Note:
-* Last week Telstra outage caused by fire in Sydney exchange resulted in many SMS's being delivered to wrong phones
+* Last week Telstra (Australian telecom provider) outage caused by fire in Sydney exchange resulted in many SMS's being delivered to wrong phones
 
 ----
 
@@ -242,6 +249,7 @@ Note:
 * misdelivery
 * unauthorised phone number porting
 * not available during phone outages
+* not encrypted
 
 Note:
 * There has been examples in news lately of people repeatedly having their umbers ported just using their name and DOB as authorisation
@@ -251,7 +259,7 @@ Note:
 
 ## We recommend
 
-Use an app for 2 factor authentication
+Use an app for 2 factor authentication:
 
 * [FreeOTP](https://freeotp.github.io/)
 * [Google Authenticator (Android/iPhone/BlackBerry)](https://support.google.com/accounts/answer/1066447?hl=en)
@@ -283,11 +291,41 @@ While transmitting sensitive information: the men in the middle
 * your email/messaging provider or anybody who has hacked or pretends to be them <!-- .element: class="fragment" -->
 * authorities who subpoena any of your communication providers <!-- .element: class="fragment" -->
 
-Note: HANDOVER
+Note:
+FIXME: Show symbol for unsecured WiFi
+Email is like a postcard, even the post office can read it
+HANDOVER
 
 ----
 
 ## Solution #1:
+
+### https
+
+Note:
+FIXME: maybe up to communication?
+
+----
+
+## What is https?
+
+* browser checks whether website has a valid certificate ('ID card')
+* encrypts traffic between browser and website
+
+----
+
+## We recommend
+
+* check the address bar in your browser
+* https://www.eff.org/https-everywhere
+
+![](https://dl.dropboxusercontent.com/s/64u41gygdnzk0k8/2017-02-05%20at%201.41%20pm.png)
+
+Examples for bad certificates: https://badssl.com/
+
+----
+
+## Solution #2:
 
 ### PGP encryption
 
@@ -297,16 +335,12 @@ Note: HANDOVER
 
 ## What is PGP encryption?
 
-* puts a padlock on any data you want<!-- .element: class="fragment" -->
-* makes it possible to sign data<!-- .element: class="fragment" -->
-* padlock is a 'public key'<!-- .element: class="fragment" -->
-* 'secret key' can open the padlock and sign data<!-- .element: class="fragment" -->
+Encryption protects your information so that no one except the intended recipient can read it.
 
-----
+PGP adds two extra features using a Public key
 
-## What is PGP encryption?
-
-In most use cases you sign data with your secret key (put your verifiable signature on it), encrypt it with the public key of a recipient (put a padlock on it), and the recipient decrypts the data with his secret key (key for the padlock), while being able to verify your signature with your public key.
+* it allows you to encrypt information for a recipient without contacting them first - using their Public key
+* you can verify that information signed by them is from them
 
 ----
 
@@ -321,16 +355,25 @@ In most use cases you sign data with your secret key (put your verifiable signat
 
 # Group activity!
 
-Get your keybase account with the invitation code we've sent you and encrypt a message to somebody else in this workshop. Send it to their email address. Decrypt a message that someone sends you.
+Get your keybase account we've sent you and encrypt a message to somebody else in this workshop. Send it to their email address. Decrypt a message that someone sends you.
 
 Note:
 * FIXME: I think we need to add screenshots & instructions for this? Or demo it - need a slide for the demo then I think.
-* FIXME: Explain about verifying that the key belongs to who you think it does - need to do this more thoroughly for more critical communication
-HAND OVER
+* FIXME: Explain about verifying that the key belongs to who you think it does - need to do this more thoroughly for more critical communication - keysigning
+* FIXME: multiple keys if you want to be able to read it later put your own key on it.
 
 ----
 
-## Solution #2:
+## More detail about PGP encryption?
+
+In most use cases you sign data with your secret key (put your verifiable signature on it), encrypt it with the public key of a recipient (put a padlock on it), and the recipient decrypts the data with his secret key (key for the padlock), while being able to verify your signature with your public key.
+
+Note: FIXME: pictures of padlocks, messages, signed messages, encrypted messages
+
+HAND OVER
+----
+
+## Solution #3:
 
 ### Secure messenger / Private messaging
 
@@ -376,38 +419,18 @@ Note:
 
 ----
 
-## Solution #1:
-
-### https
-
-----
-
-## What is https?
-
-* browser checks whether website has a valid certificate ('ID card')
-* encrypts traffic between browser and website
-
-----
-
-## We recommend
-
-* check the address bar in your browser
-* https://www.eff.org/https-everywhere
-
-![](https://dl.dropboxusercontent.com/s/64u41gygdnzk0k8/2017-02-05%20at%201.41%20pm.png)
-
-Examples for bad certificates: https://badssl.com/
-
-----
-
-# Group activity!
+# Activity!
 
 visit https://browserleaks.com
 
+Note:
+* QUESTION: Any surprises?
+
 ----
 
-## Solution #2:
+## Solution #1:
 
+### Virtual Private Network
 ### VPN 'tunnel'
 
 ----
@@ -415,9 +438,9 @@ visit https://browserleaks.com
 ## What is a VPN?
 
 * prevents eavesdropping, e.g. in an open WiFi
-* BUT: does not verify certificates ('ID cards')
 * hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with
 * can make you appear to be in another country and circumvent DNS or geo-blocking
+* does NOT replace https
 
 ----
 
@@ -444,7 +467,7 @@ Remember that if it's too cheap you might be paying in other ways.
 
 ## What is Tor Browser?
 
-* provides secure, not easily identifiable browser that doesn't leave traces
+* provides secure browser that doesn't leave traces (e.g. it does not store cookies)
 * onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
 * does not prevent you from disclosing your identity e.g. by logging into Facebook
 
@@ -492,6 +515,8 @@ when storing data:
 
 3 independent copies
 
+Note: research storage - QUT provides properly tape backed up storage for research data (rstore).
+
 ----
 
 AND
@@ -518,12 +543,6 @@ MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
 Note:
 * Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
 
-----
-
-# Group activity!
-
-Encrypt a file with keybase for you/for somebody else.
-
 Note: HAND OVER
 
 ---
@@ -532,9 +551,10 @@ Note: HAND OVER
 
 ----
 
-1. Open Source?
-2. independent security audit/reputation?
-3. will you actually use it?
+1. Open Source?<!-- .element: class="fragment" -->
+2. Reputation?<!-- .element: class="fragment" -->
+3. Independent security audit?<!-- .element: class="fragment" -->
+4. Will you actually use it?<!-- .element: class="fragment" -->
 
 ---
 
@@ -546,6 +566,13 @@ Depending on the level of risk to you or your research participants you may need
 
 Note:
 * Risks/Solutions are changing over time, so important to get current advice before you start your research.
+* FIXME: something from earlier...
+
+---
+
+# Group activity!
+
+Discuss in your groups how what we have covered today applies to your research.
 
 ---
 
@@ -613,6 +640,8 @@ Questions?
 * end-to-end encryption: encryption from a senders device to a recipient device without intermediaries being able to decrypt
 
 ----
+
+# Glossary of terms
 
 * https: HTTP over SSL https://en.wikipedia.org/wiki/HTTPS
 * IP address: number to identify your computer/router to another computer, mostly a server serving you a website
