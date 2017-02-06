@@ -86,6 +86,7 @@ Note:
 Note:
 * Snitchhunt is a game designed by Gabor Szathmari of CryptoParty Sydney to demonstrate how metadata that is kept on every one of us can be used to track our movements.
 * The original website has been taken down but Rosie Williams (@info_aus) has made a new online version (link included in resources at the end of this presentation)
+HANDOVER
 
 ----
 
@@ -207,6 +208,7 @@ Therefore your passwords will be strong, will not be reused, and you don't have 
 
 Note:
 * links to all these are provided on the resources page at end of presentation
+HANDOVER
 
 ----
 
@@ -281,6 +283,8 @@ While transmitting sensitive information: the men in the middle
 * your email/messaging provider or anybody who has hacked or pretends to be them <!-- .element: class="fragment" -->
 * authorities who subpoena any of your communication providers <!-- .element: class="fragment" -->
 
+Note: HANDOVER
+
 ----
 
 ## Solution #1:
@@ -322,6 +326,7 @@ Get your keybase account with the invitation code we've sent you and encrypt a m
 Note:
 * FIXME: I think we need to add screenshots & instructions for this? Or demo it - need a slide for the demo then I think.
 * FIXME: Explain about verifying that the key belongs to who you think it does - need to do this more thoroughly for more critical communication
+HAND OVER
 
 ----
 
@@ -460,6 +465,7 @@ Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
 Note:
 * Explain about using signatures to verify downloads?
 * What did you find was different in browserleaks report?
+HAND OVER
 
 ---
 
@@ -517,6 +523,8 @@ Note:
 # Group activity!
 
 Encrypt a file with keybase for you/for somebody else.
+
+Note: HAND OVER
 
 ---
 
