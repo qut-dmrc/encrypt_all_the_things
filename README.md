@@ -33,3 +33,11 @@ Only speciality is that `___` (three underscores) represents a new slide to the 
 #### Speaker notes
 
 start a line with `Note:`. When presenting press `S` to view presenter window.
+
+#### Printing
+
+Use url: http://localhost:1948/presentation.md?print-pdf#/ - page looks very messy
+but prints properly.
+
+To include speakers notes in PDF add
+`"showNotes": "separate-page"` to `reveal.json` (needs comma after existing item)
