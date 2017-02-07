@@ -57,7 +57,11 @@ May I remind you that the mines in Australia are all
 critical infrastructure, [...]. Therefore, we need
 to identify the person of interest to put him/her under
 arrest.
+```
 
+----
+
+```txt
 So I need you to dig this guy up for me. [...]
 
 All logs you will need for the investigation should be
@@ -80,8 +84,6 @@ Note:
 * One example of a privacy and security risk faced by everyone, not just researchers is the retention of metadata and the unexpected ways in which it can be used.
 * Would any of you like to suggest a definition of metadata?
 * Metadata is activity records - records of what you have done and when, but not the content of what you have done.
-
-FIXME: spread over two slides instead of scrolling
 
 ----
 
@@ -108,10 +110,10 @@ your Twitter accounts is hacked by angry gamergaters, and suddenly your devices 
 
 ### Activity
 
-Visit https://haveibeenpwned.com/ and look up your most used email address.
+Visit https://haveibeenpwned.com/ and look up your most used email address, to see whether your data has been published after a successful hacker attack.
 
 Note:
-* FIXME: Define pwned - 'Owned'
+* Define pwned - 'Owned'
 * demo first on our own account.
 * now go ahead and check your email
 
@@ -138,10 +140,6 @@ Note:
 * even if something similar might have happened, all examples are made up
 * also: Felix's stolen hard drive
 * 15 minutes in!
-
----
-
-# Group activity!
 
 ----
 
@@ -287,12 +285,13 @@ Note:
 
 While transmitting sensitive information: the men in the middle
 
-* others in open/untrusted WiFi <!-- .element: class="fragment" -->
 * your email/messaging provider or anybody who has hacked or pretends to be them <!-- .element: class="fragment" -->
 * authorities who subpoena any of your communication providers <!-- .element: class="fragment" -->
+* others in open/untrusted WiFi <!-- .element: class="fragment" -->
+
+<img src="img/wifi-ios.png" class="fragment" width="40%">
 
 Note:
-FIXME: Show symbol for unsecured WiFi
 Email is like a postcard, even the post office can read it
 HANDOVER
 
@@ -301,9 +300,6 @@ HANDOVER
 ## Solution #1:
 
 ### https
-
-Note:
-FIXME: maybe up to communication?
 
 ----
 
@@ -355,22 +351,109 @@ PGP adds two extra features using a Public key
 
 # Group activity!
 
-Get your keybase account we've sent you and encrypt a message to somebody else in this workshop. Send it to their email address. Decrypt a message that someone sends you.
+Get an account on [keybase.io](https://keybase.io) and encrypt a message to somebody else in this workshop. Send it to their email address. Decrypt a message that someone sends you.
 
 Note:
-* FIXME: I think we need to add screenshots & instructions for this? Or demo it - need a slide for the demo then I think.
-* FIXME: Explain about verifying that the key belongs to who you think it does - need to do this more thoroughly for more critical communication - keysigning
-* FIXME: multiple keys if you want to be able to read it later put your own key on it.
+* Explain about verifying that the key belongs to who you think it does - need to do this more thoroughly for more critical communication - keysigning
 
 ----
 
-## More detail about PGP encryption?
+![](https://dl.dropboxusercontent.com/s/e2vg3x415glbnh9/2017-02-07%20at%2011.08%20am.png)
 
-In most use cases you sign data with your secret key (put your verifiable signature on it), encrypt it with the public key of a recipient (put a padlock on it), and the recipient decrypts the data with his secret key (key for the padlock), while being able to verify your signature with your public key.
+----
 
-Note: FIXME: pictures of padlocks, messages, signed messages, encrypted messages
+![](https://dl.dropboxusercontent.com/s/mvrvjzyqp1uf71a/2017-02-07%20at%2011.17%20am.png)
 
-HAND OVER
+----
+
+![](https://dl.dropboxusercontent.com/s/5y598qvy1oa9ygf/2017-02-07%20at%2011.23%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/prfjqs88civ456n/2017-02-07%20at%2011.25%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/vvlzxh1mvqtwpdj/2017-02-07%20at%2011.27%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/kmknfxop96hf2lr/2017-02-07%20at%2011.30%20am%20%281%29.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/tjh16s4657prk8n/2017-02-07%20at%2011.36%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/1b42dt1x2s43q7y/2017-02-07%20at%2011.39%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/pgn4sgj9iy1248k/2017-02-07%20at%2011.43%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/spgf964aqxkt0lg/2017-02-07%20at%2011.47%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/oux1ofn7ji2ocl7/2017-02-07%20at%2011.50%20am%20%281%29.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/csjpyeerxciss61/2017-02-07%20at%2011.52%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/rc7e96xidr4anwe/2017-02-07%20at%2011.55%20am.png)
+
+----
+
+![](https://dl.dropboxusercontent.com/s/4or33xht5wp2j6c/2017-02-07%20at%2011.57%20am%20%281%29.png)
+
+----
+
+## Whoot! What did just happen?
+
+Let's call the public key a 'padlock'.
+
+----
+
+Red has a secret message for Green
+
+<img src="PGP/PGP1.png" width=70%>
+
+----
+
+Red encrypts message with Green's public padlock
+
+<img src="PGP/PGP2.png" width=70%>
+
+----
+
+Sent message is unreadable without Green's secret key
+
+<img src="PGP/PGP3.png" width=70%>
+
+----
+
+Green decrypts the message with their secret key
+
+<img src="PGP/PGP4.png" width=70%>
+
+----
+
+Done :)
+
+<img src="PGP/PGP5.png" width=70%>
+
+----
+
+## And how does signing work?
+
+That's where the metaphor stops working. Ask later :)
+
 ----
 
 ## Solution #3:
@@ -566,7 +649,6 @@ Depending on the level of risk to you or your research participants you may need
 
 Note:
 * Risks/Solutions are changing over time, so important to get current advice before you start your research.
-* FIXME: something from earlier...
 
 ---
 
