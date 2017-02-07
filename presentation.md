@@ -420,13 +420,46 @@ Note:
 
 ----
 
-## More detail about PGP encryption?
+## Whoot! What did just happen?
 
-In most use cases you sign data with your secret key (put your verifiable sigil on it), encrypt it with the public key of a recipient (put a padlock on it), and the recipient decrypts the data with his secret key (key for the padlock), while being able to verify your signature with your public key.
+Let's call the public key a 'padlock'.
 
-Note: FIXME: pictures of padlocks, messages, signed messages, encrypted messages
+----
 
-HAND OVER
+Red has a secret message for Green
+
+<img src="PGP/PGP1.png" width=70%>
+
+----
+
+Red encrypts message with Green's public padlock
+
+<img src="PGP/PGP2.png" width=70%>
+
+----
+
+Sent message is unreadable without Green's secret key
+
+<img src="PGP/PGP3.png" width=70%>
+
+----
+
+Green decrypts the message with their secret key
+
+<img src="PGP/PGP4.png" width=70%>
+
+----
+
+Done :)
+
+<img src="PGP/PGP5.png" width=70%>
+
+----
+
+## And how does signing work?
+
+That's where the metaphor stops working. Ask later :)
+
 ----
 
 ## Solution #3:
