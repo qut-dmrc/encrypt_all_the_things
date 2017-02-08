@@ -111,7 +111,7 @@ your Twitter accounts is hacked by angry gamergaters, and suddenly your devices 
 
 ### Activity
 
-Visit https://haveibeenpwned.com/ and look up your most used email address, to see whether your data has been published after a successful hacker attack.
+Visit https://haveibeenpwned.com/ and look up your most used email address, to see whether your data has been published after a successful cyber attack or data breach.
 
 Note:
 * Define pwned - 'Owned'
@@ -471,7 +471,7 @@ As well as encrypting messages and files, PGP can be used to sign things:
 
 ## Using PGP to verify identities
 
-Also to verify peoples public keys - by signing a public key you are saying you are confident that the key belongs to the person it says it belongs to.
+PGP can also be used to verify peoples public keys - by signing a public key you are saying you are confident that the key belongs to the person it says it belongs to.
 
 On keybase this is done by Following people - consider following some of the other people in this workshop while you know that the account is really them.
 
