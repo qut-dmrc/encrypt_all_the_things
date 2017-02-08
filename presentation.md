@@ -26,16 +26,17 @@ Note:
 * To get started thinking about security & privacy let's run through a few examples.
 * use of coloured stickynotes - red one: help, green one: finished activity.
 * asking questions
+
 ----
 
 ## Metadata retention
 
 *The Assignment*
 
-You, a young data analyst for the Australian police, are on the train heading home when your phone starts buzzing. You got a text from your boss, who is asking you to take a look at your work emails. You reluctantly open your mailbox only to find the following email:
+You, a data analyst for the Australian police, are on the train heading home when your phone starts buzzing. You got a text from your boss, who is asking you to take a look at your work emails. You reluctantly open your mailbox only to find the following email:
 
-Notes:
-* imagine you're a police agent
+Note:
+* Snitchhunt is a game designed by Gabor Szathmari of CryptoParty Sydney to demonstrate how metadata can be used to track our movements.
 
 ----
 
@@ -81,9 +82,9 @@ FINN COBURN CHIEF DATA OFFICER COMPUTER CRIME SQUAD Tel:
 https://snitchhunt.org/challenge
 
 Note:
-* One example of a privacy and security risk faced by everyone, not just researchers is the retention of metadata and the unexpected ways in which it can be used.
+* This is a privacy and security risk faced by everyone, not just researchers.
 * Would any of you like to suggest a definition of metadata?
-* Metadata is activity records - records of what you have done and when, but not the content of what you have done.
+* One way of considering metadata is as activity records - records of what you have done and when, but not the content of what you have done.
 
 ----
 
@@ -92,9 +93,9 @@ Note:
 (http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668)
 
 Note:
-* Snitchhunt is a game designed by Gabor Szathmari of CryptoParty Sydney to demonstrate how metadata that is kept on every one of us can be used to track our movements.
-* The original website has been taken down but Rosie Williams (@info_aus) has made a new online version (link included in resources at the end of this presentation)
-HANDOVER
+* You might imagine this to be very difficult, but working with realistic data and tools a team of pre-teens identified the whistleblower in less than 2 hours
+* The original website has been taken down but Rosie Williams (@info_aus) has made a new online version and a link to that is included in resources at the end of this presentation
+* HANDOVER
 
 ----
 
@@ -212,8 +213,7 @@ Therefore your passwords will be strong, will not be reused, and you don't have 
 
 Note:
 * links to all these are provided on the resources page at end of presentation
-* not to much detail
-HANDOVER
+* HANDOVER
 
 ----
 
@@ -225,11 +225,16 @@ HANDOVER
 
 ## What is 2-factor authentication?
 
-* comparable to one time passwords for online banking (TAN = transaction authentication number)<!-- .element: class="fragment" -->
-* requires a second form of authentication additionally to a password <!-- .element: class="fragment" -->
-* this second element changes over time<!-- .element: class="fragment" -->
-* most secure forms of this are bound to a device you carry with you, e.g. an app on your phone, or even more secure on a dedicated device<!-- .element: class="fragment" -->
-* most major internet services have it, if not this might be a warning sign<!-- .element: class="fragment" -->
+* similar to one time passwords for online banking<!-- .element: class="fragment" -->
+* something you know (your password) and something you have (your device)<!-- .element: class="fragment" -->
+* having device is verified by either<!-- .element: class="fragment" -->
+  * sending second code to you by SMS or<!-- .element: class="fragment" -->
+  * generating it in an App on your device<!-- .element: class="fragment" -->
+* this second element changes each time<!-- .element: class="fragment" -->
+
+Note:
+* most secure forms of this are bound to a device you carry with you, e.g. an app on your phone, or even more secure on a dedicated device
+* best practice internet services have it, if service you are using doesn't it might be a warning sign
 
 ----
 
@@ -247,10 +252,10 @@ Note:
 * misdelivery
 * unauthorised phone number porting
 * not available during phone outages
-* not encrypted
+* not encrypted - can be intercepted with scanner
 
 Note:
-* There has been examples in news lately of people repeatedly having their umbers ported just using their name and DOB as authorisation
+* There have been examples in news lately of people repeatedly having their numbers ported just using their name and DOB as authorisation
 * Same Telstra outage last week stopped people receiving SMS for 2FA
 
 ----
@@ -264,6 +269,9 @@ Use an app for 2 factor authentication:
 * [Amazon AWS MFA (Android)](https://www.amazon.com/gp/product/B0061MU68M)
 * [Authenticator (Windows Phone 7)](https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj)
 
+Note:
+* links to these are provided in the resources section
+
 ----
 
 # Group activity!
@@ -271,9 +279,11 @@ Use an app for 2 factor authentication:
 Find out whether one of your most used services provides 2-factor-authentication
 
 Note:
-* break into groups
-* check if service supports 2fa & summarise on butchers paper
-* each group report back
+* break into groups (5 minutes? - shorter?)
+* green sticky note when finished
+* check if services you use support 2fa
+* make list on butchers paper of ones that do / don't
+* each group report back (put up butchers paper on walls)
 
 ---
 
@@ -285,15 +295,15 @@ Note:
 
 While transmitting sensitive information: the men in the middle
 
-* your email/messaging provider or anybody who has hacked or pretends to be them <!-- .element: class="fragment" -->
+* your email/messaging provider or anybody who has hacked them or pretends to be them <!-- .element: class="fragment" -->
 * authorities who subpoena any of your communication providers <!-- .element: class="fragment" -->
 * others in open/untrusted WiFi <!-- .element: class="fragment" -->
 
 <img src="img/wifi-ios.png" class="fragment" width="40%">
 
 Note:
-Email is like a postcard, even the post office can read it
-HANDOVER
+* Email is like a postcard, even the post office can read it
+* HANDOVER
 
 ----
 
@@ -313,12 +323,14 @@ HANDOVER
 ## We recommend
 
 * check the address bar in your browser
+![](https://dl.dropboxusercontent.com/s/64u41gygdnzk0k8/2017-02-05%20at%201.41%20pm.png)
+
 * https://www.eff.org/https-everywhere
 
-![](https://dl.dropboxusercontent.com/s/64u41gygdnzk0k8/2017-02-05%20at%201.41%20pm.png)
 
 Examples for bad certificates: https://badssl.com/
 
+Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts your communications with many major websites
 ----
 
 ## Solution #2:
@@ -331,12 +343,11 @@ Examples for bad certificates: https://badssl.com/
 
 ## What is PGP encryption?
 
-Encryption protects your information so that no one except the intended recipient can read it.
+* Encryption protects your information so that no one except the intended recipient can read it.
 
-PGP adds two extra features using a Public key
-
-* it allows you to encrypt information for a recipient without contacting them first - using their Public key
-* you can verify that information signed by them is from them
+* PGP adds two extra features by using a Public key:
+  * it allows you to encrypt information for a recipient without contacting them first - using their Public key
+  * you can verify that information signed by them is from them
 
 ----
 
@@ -345,7 +356,7 @@ PGP adds two extra features using a Public key
 * [keybase](https://keybase.io/)
 * [GPGTools](https://gpgtools.org/)
 * [Enigmail for Thunderbird](https://www.enigmail.net/index.php/en/)
-* lots of mail clients have GPG support
+* email clients with GPG support
 
 ----
 
@@ -353,8 +364,7 @@ PGP adds two extra features using a Public key
 
 Get an account on [keybase.io](https://keybase.io) and encrypt a message to somebody else in this workshop. Send it to their email address. Decrypt a message that someone sends you.
 
-Note:
-* Explain about verifying that the key belongs to who you think it does - need to do this more thoroughly for more critical communication - keysigning
+I'll demonstrate the steps required so you can follow along, and there are screenshots showing the process in the slides file in dropbox.
 
 ----
 
@@ -414,7 +424,7 @@ Note:
 
 ----
 
-## Whoot! What did just happen?
+## Whoot! So how did that work?
 
 Let's call the public key a 'padlock'.
 
@@ -450,6 +460,23 @@ Done :)
 
 ----
 
+## Using PGP to sign things
+
+As well as encrypting messages and files, PGP can be used to sign things:
+* PGP signature verifies content and sender of item
+* can be used to certify unencrypted emails or files
+* will fail if message or file is changed
+
+----
+
+## Using PGP to verify identities
+
+Also to verify peoples public keys - by signing a public key you are saying you are confident that the key belongs to the person it says it belongs to.
+
+On keybase this is done by Following people - consider following some of the other people in this workshop while you know that the account is really them.
+
+----
+
 ## And how does signing work?
 
 That's where the metaphor stops working. Ask later :)
@@ -475,8 +502,16 @@ That's where the metaphor stops working. Ask later :)
 
 [Signal](https://whispersystems.org/)
 
-Note:
-* make sure you confirm that you are speaking to who you expect to be at the other end, and that the encryption is working properly before you exchange any confidential information.
+----
+
+# Safely using secure messaging and encryption
+
+* make sure you confirm that the account you are dealing with (Public key or Signal account) is who you expect to be at the other end
+  * verify using separate channel
+  * for chat, make sure encryption is working before exchanging any critical informaiton
+* your Keybase account is good for improving security, but you should create fresh PGP keypairs for very secure communications
+
+Note: Get expert advice, may also need to setup more secure computer
 
 ---
 
@@ -558,7 +593,9 @@ Remember that if it's too cheap you might be paying in other ways.
 
 ## We recommend
 
-Use for high risk research, not for everyday use.
+Use for TorBrowser high risk research, not for everyday use.
+
+Note: for high risk research get expert advice!
 
 ----
 
@@ -571,7 +608,7 @@ Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
 Note:
 * Explain about using signatures to verify downloads?
 * What did you find was different in browserleaks report?
-HAND OVER
+* HAND OVER
 
 ---
 
@@ -625,14 +662,15 @@ MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
 
 Note:
 * Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
-
-Note: HAND OVER
+* HAND OVER
 
 ---
 
 # How to choose a tool?
 
 ----
+
+## Things to consider
 
 1. Open Source?<!-- .element: class="fragment" -->
 2. Reputation?<!-- .element: class="fragment" -->
@@ -712,6 +750,8 @@ Questions?
   * Surveillance Self-Defense https://ssd.eff.org/
     This has overviews, tutorials, and detailed guides for specific situations.
 * Snitch Hunt Game http://whistleblower.network/snitch/index.php
+* Snitch Hunt news article http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668
+* Examples of Bad SSL certificates https://badssl.com/
 
 ---
 
