@@ -467,6 +467,10 @@ As well as encrypting messages and files, PGP can be used to sign things:
 * can be used to certify unencrypted emails or files
 * will fail if message or file is changed
 
+----
+
+## Using PGP to verify identities
+
 Also to verify peoples public keys - by signing a public key you are saying you are confident that the key belongs to the person it says it belongs to.
 
 On keybase this is done by Following people - consider following some of the other people in this workshop while you know that the account is really them.
