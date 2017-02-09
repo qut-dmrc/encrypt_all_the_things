@@ -501,7 +501,7 @@ That's where the metaphor stops working. Ask later :)
 
 ----
 
-# Safely using secure messaging and encryption
+## Safely using secure messaging and encryption
 
 * make sure you confirm that the account you are dealing with (Public key or Signal account) is who you expect to be at the other end
   * verify using separate channel
