@@ -263,6 +263,7 @@ Use an app for 2 factor authentication:
 * [Google Authenticator (Android/iPhone/BlackBerry)](https://support.google.com/accounts/answer/1066447?hl=en)
 * [Amazon AWS MFA (Android)](https://www.amazon.com/gp/product/B0061MU68M)
 * [Authenticator (Windows Phone 7)](https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj)
+* [Authy](https://www.authy.com/app/)
 
 Note:
 * links to these are provided in the resources section
@@ -714,6 +715,7 @@ Questions?
 * Authenticator (Windows Phone 7) https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj
 * FreeOTP https://freeotp.github.io/
 * Google Authenticator (Android/iPhone/BlackBerry) https://support.google.com/accounts/answer/1066447?hl=en
+* Authy https://www.authy.com/app/
 
 ----
 
