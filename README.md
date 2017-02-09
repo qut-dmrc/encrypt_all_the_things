@@ -9,7 +9,7 @@ The political upheavals of 2016 support Edward Snowden’s warnings of a turn-ke
 
 In this hands-on workshop, we address threats a researcher should protect against, explain basics of computer security, the encryption of data and communication, and provide recommendations for existing tools.
 
-[View the slides here](flxvctr.github.io/encrypt_all_the_things)
+[View the slides here](https://flxvctr.github.io/encrypt_all_the_things)
 
 ### How to edit
 
