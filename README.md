@@ -9,11 +9,11 @@ The political upheavals of 2016 support Edward Snowden’s warnings of a turn-ke
 
 In this hands-on workshop, we address threats a researcher should protect against, explain basics of computer security, the encryption of data and communication, and provide recommendations for existing tools.
 
-[View the slides here](flxvctr.github.io/encrypt_all_the_things)
+[View the slides here](https://flxvctr.github.io/encrypt_all_the_things)
 
 ### How to edit
 
-Follow the full install instructions in [here](README_reveal.js.md).
+Follow the full install instructions in [here](README_reveal.js.md#full-setup), but use `encrypt_all_the_things` instead of `reveal.js`.
 
 Run `npm start` to run the presentation locally on your computer.
 
