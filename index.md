@@ -327,6 +327,7 @@ Note:
 Examples for bad certificates: https://badssl.com/
 
 Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts your communications with many major websites
+
 ----
 
 ## Solution #2:
