@@ -1,8 +1,3 @@
----
-title: Encrypt all the things!!!
-theme: css/theme/simple.css
----
-
 <img src="http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png" width=40%/>
 
 **... but don't forget your keys.**
