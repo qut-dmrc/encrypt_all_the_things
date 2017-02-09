@@ -13,7 +13,7 @@ In this hands-on workshop, we address threats a researcher should protect agains
 
 ### How to edit
 
-Follow the full install instructions in [here](README_reveal.js.md#full-setup).
+Follow the full install instructions in [here](README_reveal.js.md#full-setup), but use `encrypt_all_the_things` instead of `reveal.js`.
 
 Run `npm start` to run the presentation locally on your computer.
 
