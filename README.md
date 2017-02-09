@@ -9,22 +9,15 @@ The political upheavals of 2016 support Edward Snowden’s warnings of a turn-ke
 
 In this hands-on workshop, we address threats a researcher should protect against, explain basics of computer security, the encryption of data and communication, and provide recommendations for existing tools.
 
-### How to view
-
-This presentation is to be presented with [reveal-md](https://github.com/webpro/reveal-md):
-
-* Download or clone this repository,
-* install node.js,
-* run `npm install -g reveal-md`,
-* then in downloaded and extracted folder `reveal-md encrypt_all_the_things.md`.
-
-*At a later date we will upload a PDF version and host it as a website*
-
-Enjoy!
+[View the slides here](flxvctr.github.io/encrypt_all_the_things)
 
 ### How to edit
 
-presentation.md contains a markdown document representing the presentation. The syntax should become clear from the document itself.
+Follow the full install instructions in [here](README_reveal.js.md).
+
+Run `npm start` to run the presentation locally on your computer.
+
+index.md contains a markdown document representing the presentation. The syntax should become clear from the document itself.
 
 #### New slide
 
@@ -36,8 +29,4 @@ start a line with `Note:`. When presenting press `S` to view presenter window.
 
 #### Printing
 
-Use url: http://localhost:1948/presentation.md?print-pdf#/ - page looks very messy
-but prints properly.
-
-To include speakers notes in PDF add
-`"showNotes": "separate-page"` to `reveal.json` (needs comma after existing item)
+Use url: http://localhost:8000/print-pdf#/ and print via the dialog in your web browser.
