@@ -18,9 +18,11 @@ Brenda Moon & Felix Victor Münch
 
 Note:
 * Over the next 2 hours we are going to explore common security and privacy concerns for researchers & some solutions to them.
-* To get started thinking about security & privacy let's run through a few examples.
+* We are assuming that you already know to keep your OS and software up to date.
+Many updates are to fix security problems, so this is important to do.
 * use of coloured stickynotes - red one: help, green one: finished activity.
 * asking questions
+* To get started thinking about security & privacy let's run through a few examples.
 
 ----
 
@@ -679,6 +681,15 @@ Note:
 # Where to from here?
 
 At end of the presentation there is a list of all the software we've mentioned today and a list of useful websites for more information.
+
+* Start using some of these tools
+* Use the suggested websites to become better informed
+* Keep your devices software & application software up to date
+
+
+----
+
+## Get expert advice
 
 Depending on the level of risk to you or your research participants you may need to seek advice from a security/privacy expert before you begin your research.
 
