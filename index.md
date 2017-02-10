@@ -18,9 +18,11 @@ Brenda Moon & Felix Victor Münch
 
 Note:
 * Over the next 2 hours we are going to explore common security and privacy concerns for researchers & some solutions to them.
-* To get started thinking about security & privacy let's run through a few examples.
+* We are assuming that you already know to keep your OS and software up to date.
+Many updates are to fix security problems, so this is important to do.
 * use of coloured stickynotes - red one: help, green one: finished activity.
 * asking questions
+* To get started thinking about security & privacy let's run through a few examples.
 
 ----
 
@@ -100,7 +102,7 @@ Note:
 
 ## weak password reuse
 
-your Twitter accounts is hacked by angry gamergaters, and suddenly your devices are wiped
+your Twitter account is hacked by angry gamergaters – and suddenly your devices are wiped
 
 ----
 
@@ -130,7 +132,7 @@ communication with protesters in an authoritarian surveillance state via iMessag
 
 ## unencrypted devices
 
-interview with journalist in country oppressing the press with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country.
+interview with journalist in country oppressing the press with 'off-the-record' content on unencrypted Android phone gets confiscated at the airport before leaving the country
 
 Note:
 * even if something similar might have happened, all examples are made up
@@ -143,7 +145,7 @@ Note:
 
 What do you want to get out of this session?
 What privacy or security issues might effect your research?
-Discuss in groups (5 minutes)
+Discuss in groups! (5 minutes)
 
 Note:
 * break into groups
@@ -153,13 +155,13 @@ Note:
 ---
 
 # Passwords
-one ring to rule you all
+one ring to rule you all <font size="3"><sub>might not be a good idea</sub></font>
 
 ----
 
 ## Main risks
 
-When you've been pwned:
+Especially when you've been pwned:
 
 * common password (qwerty, 12345, monkey, love, ...) <!-- .element: class="fragment" -->
 * easy to guess (qwerty12345, your name, your birthday, your partners birthday, your postcode, ) <!-- .element: class="fragment" -->
@@ -272,7 +274,7 @@ Note:
 
 # Group activity!
 
-Find out whether one of your most used services provides 2-factor-authentication
+Find out whether one of your most used services provides 2-factor-authentication!
 
 Note:
 * break into groups (5 minutes? - shorter?)
@@ -342,8 +344,8 @@ Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts y
 
 * Encryption protects your information so that no one except the intended recipient can read it.
 
-* PGP adds two extra features by using a Public key:
-  * it allows you to encrypt information for a recipient without contacting them first - using their Public key
+* PGP adds two extra features by using a Public Key:
+  * it allows you to encrypt information for a recipient without contacting them first - using their Public Key
   * you can verify that information signed by them is from them
 
 ----
@@ -359,8 +361,11 @@ Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts y
 
 # Group activity!
 
-Get an account on [keybase.io](https://keybase.io) and encrypt a message to somebody else in this workshop. Send it to their email address. Decrypt a message that someone sends you.
+Get an account on [keybase.io](https://keybase.io) and encrypt a message to somebody else in this workshop. Send it to their email address!
 
+Decrypt a message that someone sends you!
+
+Note:
 I'll demonstrate the steps required so you can follow along, and there are screenshots showing the process in the slides file in dropbox.
 
 ----
@@ -482,7 +487,7 @@ That's where the metaphor stops working. Ask later :)
 
 ## Solution #3:
 
-### Secure messenger / Private messaging
+### Secure messenger / private messaging
 
 ----
 
@@ -503,7 +508,7 @@ That's where the metaphor stops working. Ask later :)
 
 ## Safely using secure messaging and encryption
 
-* make sure you confirm that the account you are dealing with (Public key or Signal account) is who you expect to be at the other end
+* make sure you confirm that the account you are dealing with (Public Key or Signal account) is who you expect to be at the other end
   * verify using separate channel
   * for chat, make sure encryption is working before exchanging any critical informaiton
 * your Keybase account is good for improving security, but you should create fresh PGP keypairs for very secure communications
@@ -545,17 +550,16 @@ Note:
 
 ## Solution #1:
 
-### Virtual Private Network
-### VPN 'tunnel'
+### Virtual Private Network (VPN) 'tunnel'
 
 ----
 
 ## What is a VPN?
 
-* prevents eavesdropping, e.g. in an open WiFi
-* hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with
-* can make you appear to be in another country and circumvent DNS or geo-blocking
-* does NOT replace https
+* prevents eavesdropping, e.g. in an open WiFi<!-- .element: class="fragment" -->
+* hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with<!-- .element: class="fragment" -->
+* can make you appear to be in another country and circumvent DNS or geo-blocking<!-- .element: class="fragment" -->
+* does NOT replace https<!-- .element: class="fragment" -->
 
 ----
 
@@ -582,9 +586,9 @@ Remember that if it's too cheap you might be paying in other ways.
 
 ## What is Tor Browser?
 
-* provides secure browser that doesn't leave traces (e.g. it does not store cookies)
-* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
-* does not prevent you from disclosing your identity e.g. by logging into Facebook
+* provides secure browser that doesn't leave traces (e.g. it does not store cookies)<!-- .element: class="fragment" -->
+* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)<!-- .element: class="fragment" -->
+* does not prevent you from disclosing your identity e.g. by logging into Facebook<!-- .element: class="fragment" -->
 
 ----
 
@@ -617,10 +621,10 @@ Note:
 
 when storing data:
 
-* unauthorised access to data, e.g. in the cloud
-* unwanted access to devices, e.g. at airports
-* data loss
-* lost access
+* unauthorised access to data, e.g. in the cloud<!-- .element: class="fragment" -->
+* unwanted access to devices, e.g. if stolen or taken by authorities<!-- .element: class="fragment" -->
+* data loss<!-- .element: class="fragment" -->
+* lost access<!-- .element: class="fragment" -->
 
 ----
 
@@ -679,6 +683,14 @@ Note:
 # Where to from here?
 
 At end of the presentation there is a list of all the software we've mentioned today and a list of useful websites for more information.
+
+* Start using some of these tools!
+* Use the suggested websites to become better informed!
+* Keep your devices' software & application software up to date!
+
+----
+
+## Get expert advice
 
 Depending on the level of risk to you or your research participants you may need to seek advice from a security/privacy expert before you begin your research.
 
