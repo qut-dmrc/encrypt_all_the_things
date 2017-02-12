@@ -785,8 +785,8 @@ Questions?
 
 ![](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
 
-@brendam
-@flxvctr
+[@brendam](https://twitter.com/brendam)
+[@flxvctr](https://twitter.com/flxvctr)
 
 QUT DMRC Summer School 2017
 
