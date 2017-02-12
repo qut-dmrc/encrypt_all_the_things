@@ -237,7 +237,7 @@ Note:
 
 ## SMS is not a secure channel!
 
-![Due to today's incident, it's possible some SMS messages were incorrectly delivered. All messages will be held while we resolve the issue.](TelstraSMSProblemsTweet.png)
+![Due to today's incident, it's possible some SMS messages were incorrectly delivered. All messages will be held while we resolve the issue.](encrypt_all_the_things_slides/img/TelstraSMSProblemsTweet.png)
 
 Note:
 * Last week Telstra (Australian telecom provider) outage caused by fire in Sydney exchange resulted in many SMS's being delivered to wrong phones
@@ -297,7 +297,7 @@ While transmitting sensitive information: the men in the middle
 * authorities who subpoena any of your communication providers <!-- .element: class="fragment" -->
 * others in open/untrusted WiFi <!-- .element: class="fragment" -->
 
-<img src="img/wifi-ios.png" class="fragment" width="40%">
+<img src="encrypt_all_the_things_slides/img/wifi-ios.png" class="fragment" width="40%">
 
 Note:
 * Email is like a postcard, even the post office can read it
@@ -434,31 +434,31 @@ Let's call the public key a 'padlock'.
 
 Red has a secret message for Green
 
-<img src="PGP/PGP1.png" width=70%>
+<img src="encrypt_all_the_things_slides/img/PGP/PGP1.png" width=70%>
 
 ----
 
 Red encrypts message with Green's public padlock
 
-<img src="PGP/PGP2.png" width=70%>
+<img src="encrypt_all_the_things_slides/img/PGP/PGP2.png" width=70%>
 
 ----
 
 Sent message is unreadable without Green's secret key
 
-<img src="PGP/PGP3.png" width=70%>
+<img src="encrypt_all_the_things_slides/img/PGP/PGP3.png" width=70%>
 
 ----
 
 Green decrypts the message with their secret key
 
-<img src="PGP/PGP4.png" width=70%>
+<img src="encrypt_all_the_things_slides/img/PGP/PGP4.png" width=70%>
 
 ----
 
 Done :)
 
-<img src="PGP/PGP5.png" width=70%>
+<img src="encrypt_all_the_things_slides/img/PGP/PGP5.png" width=70%>
 
 ----
 
