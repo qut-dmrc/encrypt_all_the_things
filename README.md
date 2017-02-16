@@ -4,7 +4,6 @@
 
 *Presentation for the DMRC Summer School @ QUT 2017*
 
-
 The political upheavals of 2016 support Edward Snowden’s warnings of a turn-key surveillance state. As the aftermath of the military coup in Turkey shows, academics can be amongst the first targets of autocratic governments. Even in supposedly stable democracies, the passing of surveillance laws and increase in hacking attacks threatens the security of data and communication. In addition, researchers mostly do not enjoy the protection of information provided to lawyers, medical doctors, and clergy. Recognising these increasing risks, researchers need to become more aware of digital methods to protect their research and sources.
 
 In this hands-on workshop, we address threats a researcher should protect against, explain basics of computer security, the encryption of data and communication, and provide recommendations for existing tools.
@@ -17,7 +16,8 @@ Follow the full install instructions in [here](README_reveal.js.md#full-setup), 
 
 Run `npm start` to run the presentation locally on your computer.
 
-index.md contains a markdown document representing the presentation. The syntax should become clear from the document itself.
+Except for `index.html` and this `README.md`, the presentation files are contained in the `encrypt_all_the_things_slides` subdirectory to keep them separate from the `reveal.js` files.
+`index.md` contains a markdown document representing the presentation. The syntax should become clear from the document itself.
 
 #### New slide
 
@@ -29,4 +29,4 @@ start a line with `Note:`. When presenting press `S` to view presenter window.
 
 #### Printing
 
-Use url: http://localhost:8000/print-pdf#/ and print via the dialog in your web browser.
+Use url: http://localhost:8000/?print-pdf#/ and print via the dialog in your web browser.
