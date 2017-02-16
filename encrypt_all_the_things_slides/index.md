@@ -91,7 +91,7 @@ Note:
 
 ----
 
-<img src='https://dl.dropboxusercontent.com/s/xfeqp79r5lv1wxq/2017-01-31%20at%203.23%20pm.png' width="70%">
+<img src='encrypt_all_the_things_slides/img/snitch_hunt.png' width="70%">
 
 (http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668)
 
@@ -327,7 +327,7 @@ Note:
 ## We recommend
 
 * check the address bar in your browser
-![](https://dl.dropboxusercontent.com/s/64u41gygdnzk0k8/2017-02-05%20at%201.41%20pm.png)
+![](encrypt_all_the_things_slides/img/2017-02-05%20at%201.41%20pm.png)
 
 * https://www.eff.org/https-everywhere
 
@@ -376,59 +376,59 @@ I'll demonstrate the steps required so you can follow along, and there are scree
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/e2vg3x415glbnh9/2017-02-07%20at%2011.08%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.08%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/mvrvjzyqp1uf71a/2017-02-07%20at%2011.17%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.17%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/5y598qvy1oa9ygf/2017-02-07%20at%2011.23%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.23%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/prfjqs88civ456n/2017-02-07%20at%2011.25%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.25%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/vvlzxh1mvqtwpdj/2017-02-07%20at%2011.27%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.27%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/kmknfxop96hf2lr/2017-02-07%20at%2011.30%20am%20%281%29.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.30%20am%20%281%29.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/tjh16s4657prk8n/2017-02-07%20at%2011.36%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.36%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/1b42dt1x2s43q7y/2017-02-07%20at%2011.39%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.39%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/pgn4sgj9iy1248k/2017-02-07%20at%2011.43%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.43%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/spgf964aqxkt0lg/2017-02-07%20at%2011.47%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.47%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/oux1ofn7ji2ocl7/2017-02-07%20at%2011.50%20am%20%281%29.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.50%20am%20%281%29.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/csjpyeerxciss61/2017-02-07%20at%2011.52%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.52%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/rc7e96xidr4anwe/2017-02-07%20at%2011.55%20am.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.55%20am.png)
 
 ----
 
-![](https://dl.dropboxusercontent.com/s/4or33xht5wp2j6c/2017-02-07%20at%2011.57%20am%20%281%29.png)
+![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.57%20am%20%281%29.png)
 
 ----
 
