@@ -4,7 +4,7 @@
 
 *(Digital Privacy & Security for Researchers)*
 
-QUT DMRC Summer School 2017
+QUT DMRC Fridays 25th August 2017
 
 Brenda Moon & Felix Victor Münch
 
@@ -23,82 +23,13 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 # Why are we here?
 
 Note:
-* Over the next 2 hours we are going to explore common security and privacy concerns for researchers & some solutions to them.
+* Over the next 1.5 hours we are going to explore common security and privacy concerns for researchers & some solutions to them.
 * We are assuming that you already know to keep your OS and software up to date.
 Many updates are to fix security problems, so this is important to do.
-* use of coloured stickynotes - red one: help, green one: finished activity.
-* asking questions
+* use of coloured stickynotes - pink one: help, green one: finished activity.
+* asking questions - put up pink stickynote to indicate you want to ask a question.
 * To get started thinking about security & privacy let's run through a few examples.
-
-----
-
-## Metadata retention
-
-*The Assignment*
-
-You, a data analyst for the Australian police, are on the train heading home when your phone starts buzzing. You got a text from your boss, who is asking you to take a look at your work emails. You reluctantly open your mailbox only to find the following email:
-
-Note:
-* Snitchhunt is a game designed by Gabor Szathmari of CryptoParty Sydney to demonstrate how metadata can be used to track our movements.
-
-----
-
-```txt
-From: Finn Coburn <finn.coburn@thepolice.com> To:
-data-analysts@thepolice.com Date: 2016-12-10 10:58 Subject:
-Fixing a leak at Minecorp
-
-Good morning analysts,
-
-[...]
-
-It seems there is a whistleblower at Minecorp leaking to a
-journalist at MineWatch.
-
-[...]
-
-May I remind you that the mines in Australia are all
-critical infrastructure, [...]. Therefore, we need
-to identify the person of interest to put him/her under
-arrest.
-```
-
-----
-
-```txt
-So I need you to dig this guy up for me. [...]
-
-All logs you will need for the investigation should be
-available on Kibana. You will need to solve the preceding
-tasks before moving on to the next.
-
-Do not forget to have a look on the Kibana cheat sheet that
-Sharon put together last week for us.
-
-Keep me updated and let me know if you get stuck. I need the
-info to be submitted here by no later than 2:30 pm.
-
-FINN COBURN CHIEF DATA OFFICER COMPUTER CRIME SQUAD Tel:
-16131 www.thepolice.com
-```
-
-https://snitchhunt.org/challenge
-
-Note:
-* This is a privacy and security risk faced by everyone, not just researchers.
-* Would any of you like to suggest a definition of metadata?
-* One way of considering metadata is as activity records - records of what you have done and when, but not the content of what you have done.
-
-----
-
-<img src='encrypt_all_the_things_slides/img/snitch_hunt.png' width="70%">
-
-(http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668)
-
-Note:
-* You might imagine this to be very difficult, but working with realistic data and tools a team of pre-teens identified the whistleblower in less than 2 hours
-* The original website has been taken down but Rosie Williams (@info_aus) has made a new online version and a link to that is included in resources at the end of this presentation
-* HANDOVER
+* HANDOVER to Felix
 
 ----
 
@@ -112,7 +43,7 @@ your Twitter account is hacked by angry gamergaters – and suddenly your device
 
 ----
 
-### Activity
+## Activity!
 
 Visit https://haveibeenpwned.com/ and look up your most used email address, to see whether your data has been published after a successful cyber attack or data breach.
 
@@ -127,6 +58,16 @@ Note:
 
 researching in extremist bulletin boards/social networks
 getting harassed in your neighbourhood afterwards
+
+----
+
+## Activity!
+
+visit https://browserleaks.com
+
+Note:
+* QUESTION: Any surprises?
+* we will be using this tool again later in the workshop
 
 ----
 
@@ -147,16 +88,18 @@ Note:
 
 ----
 
-# Why are you here?
+## Metadata retention
 
-What do you want to get out of this session?
-What privacy or security issues might effect your research?
-Discuss in groups! (5 minutes)
+<img src='encrypt_all_the_things_slides/img/snitch_hunt.png' width="70%">
+
+(http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668)
 
 Note:
-* break into groups
-* discuss what privacy or security issues might effect your research & summarise on butchers paper
-* each group report back
+* This is a privacy and security risk faced by everyone, not just researchers.
+* Would any of you like to suggest a definition of metadata?
+* One way of considering metadata is as activity records - records of what you have done and when, but not the content of what you have done.
+* The slide shows a news article about a realistic metadata game where a team of pre-teens identified a whistleblower in less than 2 hours
+* Handover to Brenda
 
 ---
 
@@ -174,8 +117,6 @@ Especially when you've been pwned:
 * reuse of passwords <!-- .element: class="fragment" -->
 * storing password in an unsafe place (i.e. unencrypted and accessible from outside) <!-- .element: class="fragment" -->
 * forgetting your password <!-- .element: class="fragment" -->
-
-Note: 25 minutes in!
 
 ----
 
@@ -216,7 +157,6 @@ Therefore your passwords will be strong, will not be reused, and you don't have 
 
 Note:
 * links to all these are provided on the resources page at end of presentation
-* HANDOVER
 
 ----
 
@@ -246,7 +186,7 @@ Note:
 ![Due to today's incident, it's possible some SMS messages were incorrectly delivered. All messages will be held while we resolve the issue.](encrypt_all_the_things_slides/img/TelstraSMSProblemsTweet.png)
 
 Note:
-* Last week Telstra (Australian telecom provider) outage caused by fire in Sydney exchange resulted in many SMS's being delivered to wrong phones
+* In February 2017 Telstra (Australian telecom provider) outage caused by fire in Sydney exchange resulted in many SMS's being delivered to wrong phones
 
 ----
 
@@ -259,7 +199,7 @@ Note:
 
 Note:
 * There have been examples in news lately of people repeatedly having their numbers ported just using their name and DOB as authorisation
-* Same Telstra outage last week stopped people receiving SMS for 2FA
+* Same Telstra outage early this year stopped people receiving SMS for 2FA
 
 ----
 
@@ -278,16 +218,154 @@ Note:
 
 ----
 
-# Group activity!
+# Activity!
 
-Find out whether one of your most used services provides 2-factor-authentication!
+Which services provide 2-factor-authentication?
 
 Note:
-* break into groups (5 minutes? - shorter?)
-* green sticky note when finished
-* check if services you use support 2fa
-* make list on butchers paper of ones that do / don't
-* each group report back (put up butchers paper on walls)
+* ask people to suggest services which support 2fa & write on board/paper.
+* HANDOVER to Felix
+
+---
+
+# Researcher privacy
+
+----
+
+## Main risks
+
+when researching on the internet:
+
+* activity record (metadata) retention (by state/institution/ad networks)
+    * by IP address (like a 'phone number' for your computer)
+    * by browser cookies (like customer cards in shops, just for your browser)
+* revealing of personal details to website owners
+* other forms of browser finger printing
+
+Note:
+* your IP address may reveal your location, and stays the same at least during a single session, and possibly all the time. This means it can be used to track your visits across multiple websites
+* browser cookies are stored on your computer and used to customise your experience of a website, but can also be used to track your use of a website and even between websites.
+* if you login to a website you have provide your account details to that website and to your IP address
+* new ways of identifying website visits are always being explored, for example using which fonts your browser reports as a finger print to identify your browser.
+
+----
+
+## Solution #1:
+
+### Virtual Private Network (VPN) 'tunnel'
+
+----
+
+## What is a VPN?
+
+* prevents eavesdropping, e.g. in an open WiFi<!-- .element: class="fragment" -->
+* hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with<!-- .element: class="fragment" -->
+* can make you appear to be in another country and circumvent DNS or geo-blocking<!-- .element: class="fragment" -->
+* does NOT replace https<!-- .element: class="fragment" -->
+
+----
+
+## We recommend
+
+Choose a VPN service which:
+
+* claims not to store activity records (hard to verify)
+* uses OpenVPN
+* has servers in safe jurisdictions
+* not insert advertising into your browsing stream
+
+Remember that if it's too cheap you might be paying in other ways.
+
+[NordVPN](https://nordvpn.com/) and [Private Internet Access](https://www.privateinternetaccess.com/) both have a long term high reputation
+
+----
+
+## Solution #2:
+
+### Tor Browser
+
+----
+
+## What is Tor Browser?
+
+* provides secure browser that doesn't leave traces (e.g. it does not store cookies)<!-- .element: class="fragment" -->
+* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)<!-- .element: class="fragment" -->
+* does not prevent you from disclosing your identity e.g. by logging into Facebook<!-- .element: class="fragment" -->
+
+----
+
+## We recommend
+
+Use for TorBrowser high risk research, not for everyday use.
+
+Note: for high risk research get expert advice!
+
+----
+
+## Activity!
+
+Install Tor Browser and visit https://browserleaks.com again.
+
+Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
+
+Note:
+* Explain about using signatures to verify downloads?
+* What did you find was different in browserleaks report?
+* Handover to Brenda
+
+---
+
+# Data storage
+
+----
+
+## Main risks
+
+when storing data:
+
+* unauthorised access to data, e.g. in the cloud<!-- .element: class="fragment" -->
+* unwanted access to devices, e.g. if stolen or taken by authorities<!-- .element: class="fragment" -->
+* data loss<!-- .element: class="fragment" -->
+* lost access<!-- .element: class="fragment" -->
+
+----
+
+## Solution
+
+----
+
+# backup, backup, backup
+
+3 independent copies
+
+Note: research storage - QUT provides properly tape backed up storage for research data (rstore).
+
+----
+
+AND
+
+----
+
+![](http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png)
+
+**... but don't forget your keys.**
+*(hint: use a password manager)*
+
+----
+
+## We recommend
+
+* full device/disk/USB stick … encryption (mostly provided by OS)
+* for files in the cloud:
+    * [Cryptomator](https://cryptomator.org/)
+    * [keybase](https://keybase.io/)
+    * disk image encryption by your operating system
+
+MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
+
+Note:
+* Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
+* Handover to Felix
 
 ---
 
@@ -307,7 +385,6 @@ While transmitting sensitive information: the men in the middle
 
 Note:
 * Email is like a postcard, even the post office can read it
-* HANDOVER
 
 ----
 
@@ -372,63 +449,7 @@ Get an account on [keybase.io](https://keybase.io) and encrypt a message to some
 Decrypt a message that someone sends you!
 
 Note:
-I'll demonstrate the steps required so you can follow along, and there are screenshots showing the process in the slides file in dropbox.
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.08%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.17%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.23%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.25%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.27%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.30%20am%20%281%29.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.36%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.39%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.43%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.47%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.50%20am%20%281%29.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.52%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.55%20am.png)
-
-----
-
-![](encrypt_all_the_things_slides/img/2017-02-07%20at%2011.57%20am%20%281%29.png)
+I'll demonstrate the steps required so you can follow along.
 
 ----
 
@@ -519,157 +540,9 @@ That's where the metaphor stops working. Ask later :)
   * for chat, make sure encryption is working before exchanging any critical informaiton
 * your Keybase account is good for improving security, but you should create fresh PGP keypairs for very secure communications
 
-Note: Get expert advice, may also need to setup more secure computer
-
----
-
-# Researcher privacy
-
-----
-
-## Main risks
-
-when researching on the internet:
-
-* activity record (metadata) retention (by state/institution/ad networks)
-    * by IP address (like a 'phone number' for your computer)
-    * by browser cookies (like customer cards in shops, just for your browser)
-* revealing of personal details to website owners
-* other forms of browser finger printing
-
 Note:
-* your IP address may reveal your location, and stays the same at least during a single session, and possibly all the time. This means it can be used to track your visits across multiple websites
-* browser cookies are stored on your computer and used to customise your experience of a website, but can also be used to track your use of a website and even between websites.
-* if you login to a website you have provide your account details to that website and to your IP address
-* new ways of identifying website visits are always being explored, for example using which fonts your browser reports as a finger print to identify your browser.
-
-----
-
-# Activity!
-
-visit https://browserleaks.com
-
-Note:
-* QUESTION: Any surprises?
-
-----
-
-## Solution #1:
-
-### Virtual Private Network (VPN) 'tunnel'
-
-----
-
-## What is a VPN?
-
-* prevents eavesdropping, e.g. in an open WiFi<!-- .element: class="fragment" -->
-* hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with<!-- .element: class="fragment" -->
-* can make you appear to be in another country and circumvent DNS or geo-blocking<!-- .element: class="fragment" -->
-* does NOT replace https<!-- .element: class="fragment" -->
-
-----
-
-## We recommend
-
-Choose a VPN service which:
-
-* claims not to store activity records (hard to verify)
-* uses OpenVPN
-* has servers in safe jurisdictions
-* not insert advertising into your browsing stream
-
-Remember that if it's too cheap you might be paying in other ways.
-
-[NordVPN](https://nordvpn.com/) and [Private Internet Access](https://www.privateinternetaccess.com/) both have a long term high reputation
-
-----
-
-## Solution #2:
-
-### Tor Browser
-
-----
-
-## What is Tor Browser?
-
-* provides secure browser that doesn't leave traces (e.g. it does not store cookies)<!-- .element: class="fragment" -->
-* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)<!-- .element: class="fragment" -->
-* does not prevent you from disclosing your identity e.g. by logging into Facebook<!-- .element: class="fragment" -->
-
-----
-
-## We recommend
-
-Use for TorBrowser high risk research, not for everyday use.
-
-Note: for high risk research get expert advice!
-
-----
-
-# Group activity!
-
-Install Tor Browser and visit https://browserleaks.com again.
-
-Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
-
-Note:
-* Explain about using signatures to verify downloads?
-* What did you find was different in browserleaks report?
-* HAND OVER
-
----
-
-# Data storage
-
-----
-
-## Main risks
-
-when storing data:
-
-* unauthorised access to data, e.g. in the cloud<!-- .element: class="fragment" -->
-* unwanted access to devices, e.g. if stolen or taken by authorities<!-- .element: class="fragment" -->
-* data loss<!-- .element: class="fragment" -->
-* lost access<!-- .element: class="fragment" -->
-
-----
-
-## Solution
-
-----
-
-# backup, backup, backup
-
-3 independent copies
-
-Note: research storage - QUT provides properly tape backed up storage for research data (rstore).
-
-----
-
-AND
-
-----
-
-![](http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png)
-
-**... but don't forget your keys.**
-*(hint: use a password manager)*
-
-----
-
-## We recommend
-
-* full device/disk/USB stick … encryption (mostly provided by OS)
-* for files in the cloud:
-    * [Cryptomator](https://cryptomator.org/)
-    * [keybase](https://keybase.io/)
-    * disk image encryption by your operating system
-
-MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
-
-Note:
-* Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
-* HAND OVER
+* Get expert advice, may also need to setup more secure computer
+* Handover to Brenda
 
 ---
 
@@ -707,11 +580,13 @@ Note:
 
 # Group activity!
 
-Discuss in your groups how what we have covered today applies to your research.
+Discuss in groups how what we have covered today applies to your research.
+* What did you get out of this session?
+* What privacy or security issues might effect your research?
 
 ---
 
-Questions?
+# Questions?
 
 ---
 
@@ -794,7 +669,7 @@ Questions?
 [@brendam](https://twitter.com/brendam)
 [@flxvctr](https://twitter.com/flxvctr)
 
-QUT DMRC Summer School 2017
+QUT DMRC Fridays 25th August 2017
 
 <font size=0.5><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</font>
