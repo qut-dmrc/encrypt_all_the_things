@@ -296,7 +296,7 @@ Remember that if it's too cheap you might be paying in other ways.
 
 ## We recommend
 
-Use for TorBrowser high risk research, not for everyday use.
+Use TorBrowser for high risk research, not for everyday use.
 
 Note: for high risk research get expert advice!
 
@@ -436,7 +436,8 @@ Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts y
 ## We recommend
 
 * [keybase](https://keybase.io/)
-* [GPGTools](https://gpgtools.org/)
+* [GPGTools](https://gpgtools.org/) for MacOS
+* [GPG4win](https://www.gpg4win.org/) for Windows
 * [Enigmail for Thunderbird](https://www.enigmail.net/index.php/en/)
 * email clients with GPG support
 
