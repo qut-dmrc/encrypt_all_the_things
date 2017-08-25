@@ -2,7 +2,7 @@
 
 ## (Digital Privacy & Security for Researchers)
 
-*Presentation for the DMRC Summer School @ QUT 2017*
+*Presentation for the DMRC Fridays @ QUT August 25th 2017*
 
 The political upheavals of 2016 support Edward Snowden’s warnings of a turn-key surveillance state. As the aftermath of the military coup in Turkey shows, academics can be amongst the first targets of autocratic governments. Even in supposedly stable democracies, the passing of surveillance laws and increase in hacking attacks threatens the security of data and communication. In addition, researchers mostly do not enjoy the protection of information provided to lawyers, medical doctors, and clergy. Recognising these increasing risks, researchers need to become more aware of digital methods to protect their research and sources.
 
