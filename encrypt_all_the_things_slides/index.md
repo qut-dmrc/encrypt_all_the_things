@@ -618,6 +618,7 @@ Discuss in groups how what we have covered today applies to your research.
 
 * Browser leaks https://browserleaks.com
 * HTTPS Everywhere https://www.eff.org/https-everywhere
+* detailed VPN comparison https://thatoneprivacysite.net/
 * NordVPN https://nordvpn.com/
 * Private Internet Access https://www.privateinternetaccess.com/
 * Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
