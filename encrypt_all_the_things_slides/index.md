@@ -4,7 +4,7 @@
 
 *(Digital Privacy & Security for Researchers)*
 
-QUT DMRC Fridays 25th August 2017
+Pre-conference workshop AoIR 2017, 18. October
 
 Brenda Moon & Felix Victor Münch
 
