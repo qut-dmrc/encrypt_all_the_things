@@ -4,7 +4,7 @@
 
 *(Digital Privacy & Security for Researchers)*
 
-QUT DMRC Fridays 25th August 2017
+Pre-conference workshop AoIR 2017, 18. October
 
 Brenda Moon & Felix Victor Münch
 
@@ -112,11 +112,11 @@ one ring to rule you all <font size="3"><sub>might not be a good idea</sub></fon
 
 Especially when you've been pwned:
 
-* common password (qwerty, 12345, monkey, love, ...) <!-- .element: class="fragment" -->
-* easy to guess (qwerty12345, your name, your birthday, your partners birthday, your postcode, ) <!-- .element: class="fragment" -->
-* reuse of passwords <!-- .element: class="fragment" -->
-* storing password in an unsafe place (i.e. unencrypted and accessible from outside) <!-- .element: class="fragment" -->
-* forgetting your password <!-- .element: class="fragment" -->
+* common password (qwerty, 12345, monkey, love, ...)
+* easy to guess (qwerty12345, your name, your birthday, your partners birthday, your postcode, )
+* reuse of passwords
+* storing password in an unsafe place (i.e. unencrypted and accessible from outside)
+* forgetting your password
 
 ----
 
@@ -133,17 +133,17 @@ QUESTIONS:
 
 ## What is a password manager?
 
-* allows you to access all your passwords with a master password and/or keyfile ("secret file", e.g. on a USB stick) <!-- .element: class="fragment" -->
-* stores passwords in an encrypted file (i.e. not readable without a key) <!-- .element: class="fragment" -->
-* can often generate secure passwords for you <!-- .element: class="fragment" -->
+* allows you to access all your passwords with a master password and/or keyfile ("secret file", e.g. on a USB stick)
+* stores passwords in an encrypted file (i.e. not readable without a key)
+* can often generate secure passwords for you
 
-Therefore your passwords will be strong, will not be reused, and you don't have to worry about memorising them anymore. <!-- .element: class="fragment" -->
+Therefore your passwords will be strong, will not be reused, and you don't have to worry about memorising them anymore.
 
 ----
 
 ## We recommend
 
-* KeePass, KeePassX, KeeWeb
+* KeePass, KeePassXC, KeeWeb
     * Open source +
     * interoperable +
     * high reputation +
@@ -168,12 +168,12 @@ Note:
 
 ## What is 2-factor authentication?
 
-* similar to one time passwords for online banking<!-- .element: class="fragment" -->
-* something you know (your password) and something you have (your device)<!-- .element: class="fragment" -->
-* having device is verified by either<!-- .element: class="fragment" -->
-  * sending second code to you by SMS or<!-- .element: class="fragment" -->
-  * generating it in an App on your device<!-- .element: class="fragment" -->
-* this second element changes each time<!-- .element: class="fragment" -->
+* similar to one time passwords for online banking
+* something you know (your password) and something you have (your device)
+* having device is verified by either
+  * sending second code to you by SMS or
+  * generating it in an App on your device
+* this second element changes each time
 
 Note:
 * most secure forms of this are bound to a device you carry with you, e.g. an app on your phone, or even more secure on a dedicated device
@@ -258,10 +258,10 @@ Note:
 
 ## What is a VPN?
 
-* prevents eavesdropping, e.g. in an open WiFi<!-- .element: class="fragment" -->
-* hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with<!-- .element: class="fragment" -->
-* can make you appear to be in another country and circumvent DNS or geo-blocking<!-- .element: class="fragment" -->
-* does NOT replace https<!-- .element: class="fragment" -->
+* prevents eavesdropping, e.g. in an open WiFi
+* hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with
+* can make you appear to be in another country and circumvent DNS or geo-blocking
+* does NOT replace https
 
 ----
 
@@ -288,9 +288,9 @@ Remember that if it's too cheap you might be paying in other ways.
 
 ## What is Tor Browser?
 
-* provides secure browser that doesn't leave traces (e.g. it does not store cookies)<!-- .element: class="fragment" -->
-* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)<!-- .element: class="fragment" -->
-* does not prevent you from disclosing your identity e.g. by logging into Facebook<!-- .element: class="fragment" -->
+* provides secure browser that doesn't leave traces (e.g. it does not store cookies)
+* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
+* does not prevent you from disclosing your identity e.g. by logging into Facebook
 
 ----
 
@@ -323,10 +323,10 @@ Note:
 
 when storing data:
 
-* unauthorised access to data, e.g. in the cloud<!-- .element: class="fragment" -->
-* unwanted access to devices, e.g. if stolen or taken by authorities<!-- .element: class="fragment" -->
-* data loss<!-- .element: class="fragment" -->
-* lost access<!-- .element: class="fragment" -->
+* unauthorised access to data, e.g. in the cloud
+* unwanted access to devices, e.g. if stolen or taken by authorities
+* data loss
+* lost access
 
 ----
 
@@ -336,7 +336,7 @@ when storing data:
 
 # backup, backup, backup
 
-3 independent copies
+3 independent copies, 2 locations, 1 offline
 
 Note: research storage - QUT provides properly tape backed up storage for research data (rstore).
 
@@ -377,9 +377,9 @@ Note:
 
 While transmitting sensitive information: the men in the middle
 
-* your email/messaging provider or anybody who has hacked them or pretends to be them <!-- .element: class="fragment" -->
-* authorities who subpoena any of your communication providers <!-- .element: class="fragment" -->
-* others in open/untrusted WiFi <!-- .element: class="fragment" -->
+* your email/messaging provider or anybody who has hacked them or pretends to be them
+* authorities who subpoena any of your communication providers
+* others in open/untrusted WiFi
 
 <img src="encrypt_all_the_things_slides/img/wifi-ios.png" class="fragment" width="40%">
 
@@ -553,10 +553,10 @@ Note:
 
 ## Things to consider
 
-1. Open Source?<!-- .element: class="fragment" -->
-2. Reputation?<!-- .element: class="fragment" -->
-3. Independent security audit?<!-- .element: class="fragment" -->
-4. Will you actually use it?<!-- .element: class="fragment" -->
+1. Open Source?
+2. Reputation?
+3. Independent security audit?
+4. Will you actually use it?
 
 ---
 
@@ -599,7 +599,7 @@ Discuss in groups how what we have covered today applies to your research.
 
 * 1Password https://1password.com/
 * KeePass http://keepass.info/
-* KeePassX https://www.keepassx.org/
+* KeePassXC https://keepassxc.org/
 * KeeWeb https://keeweb.info/
 
 ----
@@ -618,6 +618,7 @@ Discuss in groups how what we have covered today applies to your research.
 
 * Browser leaks https://browserleaks.com
 * HTTPS Everywhere https://www.eff.org/https-everywhere
+* detailed VPN comparison https://thatoneprivacysite.net/
 * NordVPN https://nordvpn.com/
 * Private Internet Access https://www.privateinternetaccess.com/
 * Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
@@ -669,8 +670,6 @@ Discuss in groups how what we have covered today applies to your research.
 
 [@brendam](https://twitter.com/brendam)
 [@flxvctr](https://twitter.com/flxvctr)
-
-QUT DMRC Fridays 25th August 2017
 
 <font size=0.5><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</font>
