@@ -336,7 +336,7 @@ when storing data:
 
 # backup, backup, backup
 
-3 independent copies
+3 independent copies, 2 locations, 1 offline
 
 Note: research storage - QUT provides properly tape backed up storage for research data (rstore).
 
