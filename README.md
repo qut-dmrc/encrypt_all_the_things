@@ -30,3 +30,7 @@ start a line with `Note:`. When presenting press `S` to view presenter window.
 #### Printing
 
 Use url: http://localhost:8000/?print-pdf#/ and print via the dialog in your web browser.
+
+#### Previous versions of workshop
+
+Previous versions of the workshop are available on the releases page: https://github.com/qut-dmrc/encrypt_all_the_things/releases
