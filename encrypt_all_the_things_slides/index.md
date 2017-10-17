@@ -143,7 +143,7 @@ Therefore your passwords will be strong, will not be reused, and you don't have 
 
 ## We recommend
 
-* KeePass, KeePassX, KeeWeb
+* KeePass, KeePassXC, KeeWeb
     * Open source +
     * interoperable +
     * high reputation +
@@ -599,7 +599,7 @@ Discuss in groups how what we have covered today applies to your research.
 
 * 1Password https://1password.com/
 * KeePass http://keepass.info/
-* KeePassX https://www.keepassx.org/
+* KeePassXC https://keepassxc.org/
 * KeeWeb https://keeweb.info/
 
 ----
