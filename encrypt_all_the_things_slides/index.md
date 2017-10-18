@@ -14,9 +14,13 @@ Brenda Moon & Felix Victor Münch
 
 ----
 
+https://qut-dmrc.github.io/encrypt_all_the_things/
+
 <font size=3>
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</font>
+
+@brendam | @flxvctr
 
 ---
 
@@ -90,7 +94,7 @@ Note:
 
 ## Metadata retention
 
-<img src='encrypt_all_the_things_slides/img/snitch_hunt.png' width="70%">
+<img src='encrypt_all_the_things_slides/img/snitch_hunt.png' width="60%">
 
 (http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668)
 
@@ -218,8 +222,6 @@ Note:
 
 ----
 
-# Activity!
-
 Which services provide 2-factor-authentication?
 
 Note:
@@ -276,7 +278,7 @@ Choose a VPN service which:
 
 Remember that if it's too cheap you might be paying in other ways.
 
-[NordVPN](https://nordvpn.com/) and [Private Internet Access](https://www.privateinternetaccess.com/) both have a long term high reputation
+[NordVPN](https://nordvpn.com/) and [Private Internet Access](https://www.privateinternetaccess.com/) both have had a long term high reputation. The new [ProtonVPN](https://protonvpn.com/) by the team behind ProtonMail seems to be good too.
 
 ----
 
@@ -300,18 +302,20 @@ Use TorBrowser for high risk research, not for everyday use.
 
 Note: for high risk research get expert advice!
 
+Note:
+* Handover to Brenda
+
 ----
 
 ## Activity!
 
 Install Tor Browser and visit https://browserleaks.com again.
 
-Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
+Tor Browser: https://www.torproject.org/download/download.html.en
 
 Note:
 * Explain about using signatures to verify downloads?
 * What did you find was different in browserleaks report?
-* Handover to Brenda
 
 ---
 
@@ -365,7 +369,6 @@ MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
 
 Note:
 * Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
-* Handover to Felix
 
 ---
 
@@ -441,16 +444,14 @@ Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts y
 * [Enigmail for Thunderbird](https://www.enigmail.net/index.php/en/)
 * email clients with GPG support
 
+Note:
+HANDOVER Felix
+
 ----
 
-# Group activity!
+## Using Keybase
 
-Get an account on [keybase.io](https://keybase.io) and encrypt a message to somebody else in this workshop. Send it to their email address!
-
-Decrypt a message that someone sends you!
-
-Note:
-I'll demonstrate the steps required so you can follow along.
+With an account on [keybase.io](https://keybase.io) it is easy to encrypt a message to somebody else. Let's try it!
 
 ----
 
@@ -503,7 +504,7 @@ As well as encrypting messages and files, PGP can be used to sign things:
 
 PGP can also be used to verify peoples public keys - by signing a public key you are saying you are confident that the key belongs to the person it says it belongs to.
 
-On keybase this is done by following people. Consider following some of the other people in this workshop while you know that the account is really them.
+On keybase this is done by following people.
 
 ----
 
@@ -531,6 +532,8 @@ That's where the metaphor stops working. Ask later :)
 ## We recommend
 
 [Signal](https://whispersystems.org/)
+
+[keybase](https://keybase.io)
 
 ----
 
@@ -560,7 +563,7 @@ Note:
 
 ---
 
-# Where to from here?
+## Where to from here?
 
 At end of the presentation there is a list of all the software we've mentioned today and a list of useful websites for more information.
 
