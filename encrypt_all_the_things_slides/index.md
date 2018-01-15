@@ -103,7 +103,7 @@ Note:
 * Would any of you like to suggest a definition of metadata?
 * One way of considering metadata is as activity records - records of what you have done and when, but not the content of what you have done.
 * The slide shows a news article about a realistic metadata game where a team of pre-teens identified a whistleblower in less than 2 hours
-* Handover to Brenda
+* HANDOVER to Brenda
 
 ---
 
@@ -300,10 +300,9 @@ Remember that if it's too cheap you might be paying in other ways.
 
 Use TorBrowser for high risk research, not for everyday use.
 
-Note: for high risk research get expert advice!
-
 Note:
-* Handover to Brenda
+* for high risk research get expert advice!
+* HANDOVER to Brenda
 
 ----
 
@@ -445,7 +444,7 @@ Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts y
 * email clients with GPG support
 
 Note:
-HANDOVER Felix
+* HANDOVER Felix
 
 ----
 
@@ -546,7 +545,7 @@ That's where the metaphor stops working. Ask later :)
 
 Note:
 * Get expert advice, may also need to setup more secure computer
-* Handover to Brenda
+* HANDOVER to Brenda
 
 ---
 
