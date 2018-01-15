@@ -4,7 +4,7 @@
 
 *(Digital Privacy & Security for Researchers)*
 
-Pre-conference workshop AoIR 2017, 18. October
+DMRC Summer School Workshop 2018, 5-9 February
 
 Brenda Moon & Felix Victor Münch
 
