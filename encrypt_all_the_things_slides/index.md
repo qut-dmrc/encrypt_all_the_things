@@ -4,9 +4,9 @@
 
 *(Digital Privacy & Security for Researchers)*
 
-DMRC Summer School Workshop 2018, 5-9 February
+DMRC Summer School Workshop 2019, 11-15 February
 
-Brenda Moon & Felix Victor Münch
+Brenda Moon
 
 <font size=0.5>image: http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png
 (based on original by http://hyperboleandahalf.blogspot.com.au/)
@@ -27,13 +27,12 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 # Why are we here?
 
 Note:
-* Over the next 1.5 hours we are going to explore common security and privacy concerns for researchers & some solutions to them.
+* Over the next 2 hours we are going to explore common security and privacy concerns for researchers & some solutions to them.
 * We are assuming that you already know to keep your OS and software up to date.
 Many updates are to fix security problems, so this is important to do.
 * use of coloured stickynotes - pink one: help, green one: finished activity.
 * asking questions - put up pink stickynote to indicate you want to ask a question.
 * To get started thinking about security & privacy let's run through a few examples.
-* HANDOVER to Felix
 
 ----
 
@@ -87,7 +86,6 @@ interview with journalist in country oppressing the press with 'off-the-record' 
 
 Note:
 * even if something similar might have happened, all examples are made up
-* also: Felix's stolen hard drive
 * 15 minutes in!
 
 ----
@@ -103,7 +101,6 @@ Note:
 * Would any of you like to suggest a definition of metadata?
 * One way of considering metadata is as activity records - records of what you have done and when, but not the content of what you have done.
 * The slide shows a news article about a realistic metadata game where a team of pre-teens identified a whistleblower in less than 2 hours
-* HANDOVER to Brenda
 
 ---
 
@@ -196,7 +193,7 @@ Note:
 
 ## SMS problems
 
-* misdelivery
+* mis-delivery
 * unauthorised phone number porting
 * not available during phone outages
 * not encrypted - can be intercepted with scanner
@@ -226,7 +223,6 @@ Which services provide 2-factor-authentication?
 
 Note:
 * ask people to suggest services which support 2fa & write on board/paper.
-* HANDOVER to Felix
 
 ---
 
@@ -302,7 +298,6 @@ Use TorBrowser for high risk research, not for everyday use.
 
 Note:
 * for high risk research get expert advice!
-* HANDOVER to Brenda
 
 ----
 
@@ -444,7 +439,6 @@ Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts y
 * email clients with GPG support
 
 Note:
-* HANDOVER Felix
 
 ----
 
@@ -545,7 +539,6 @@ That's where the metaphor stops working. Ask later :)
 
 Note:
 * Get expert advice, may also need to setup more secure computer
-* HANDOVER to Brenda
 
 ---
 
