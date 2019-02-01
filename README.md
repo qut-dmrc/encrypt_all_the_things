@@ -2,17 +2,17 @@
 
 ## (Digital Privacy & Security for Researchers)
 
-*Workshop for the DMRC Summer School @ QUT 5-9 February 2018*
+*Workshop for the DMRC Summer School @ QUT 11-15 February 2019*
 
 The political upheavals of 2016 support Edward Snowden’s warnings of a turn-key surveillance state. As the aftermath of the military coup in Turkey shows, academics can be amongst the first targets of autocratic governments. Even in supposedly stable democracies, the passing of surveillance laws and increase in hacking attacks threatens the security of data and communication. In addition, researchers mostly do not enjoy the protection of information provided to lawyers, medical doctors, and clergy. Recognising these increasing risks, researchers need to become more aware of digital methods to protect their research and sources.
 
 In this hands-on workshop, we address threats a researcher should protect against, explain basics of computer security, the encryption of data and communication, and provide recommendations for existing tools.
 
-[View the slides here](https://qut-dmrc.github.io/encrypt_all_the_things)
+[View the slides here][1]
 
 ### How to edit
 
-Follow the full install instructions in [here](README_reveal.js.md#full-setup), but use `encrypt_all_the_things` instead of `reveal.js`.
+Follow the full install instructions in [here][2], but use `encrypt_all_the_things` instead of `reveal.js`.
 
 Run `npm start` to run the presentation locally on your computer.
 
@@ -33,4 +33,7 @@ Use url: http://localhost:8000/?print-pdf#/ and print via the dialog in your web
 
 #### Previous versions of workshop
 
-Previous versions of the workshop are available on the releases page: https://github.com/qut-dmrc/encrypt_all_the_things/releases
+Previous versions of the workshop are available on the releases page: https://github.com/qut-dmrc/encrypt\_all\_the\_things/releases
+
+[1]:	https://qut-dmrc.github.io/encrypt_all_the_things
+[2]:	README_reveal.js.md#full-setup
