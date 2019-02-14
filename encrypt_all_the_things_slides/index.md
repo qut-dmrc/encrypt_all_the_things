@@ -169,7 +169,6 @@ Note:
 
 ## What is 2-factor authentication?
 
-* similar to one time passwords for online banking
 * something you know (your password) and something you have (your device)
 * having device is verified by either
   * sending second code to you by SMS or
@@ -210,7 +209,6 @@ Use an app for 2 factor authentication:
 
 * [FreeOTP](https://freeotp.github.io/)
 * [Google Authenticator (Android/iPhone/BlackBerry)](https://support.google.com/accounts/answer/1066447?hl=en)
-* [Amazon AWS MFA (Android)](https://www.amazon.com/gp/product/B0061MU68M)
 * [Authenticator (Windows Phone 7)](https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj)
 * [Authy](https://www.authy.com/app/)
 
@@ -243,7 +241,7 @@ when researching on the internet:
 Note:
 * your IP address may reveal your location, and stays the same at least during a single session, and possibly all the time. This means it can be used to track your visits across multiple websites
 * browser cookies are stored on your computer and used to customise your experience of a website, but can also be used to track your use of a website and even between websites.
-* if you login to a website you have provide your account details to that website and to your IP address
+* if you login to a website you have provide your account details to that website and your IP address
 * new ways of identifying website visits are always being explored, for example using which fonts your browser reports as a finger print to identify your browser.
 
 ----
@@ -372,7 +370,7 @@ Note:
 
 ## Main risks
 
-While transmitting sensitive information: the men in the middle
+While transmitting sensitive information: the men in the middle (MTM)
 
 * your email/messaging provider or anybody who has hacked them or pretends to be them
 * authorities who subpoena any of your communication providers
@@ -601,7 +599,6 @@ Discuss in groups how what we have covered today applies to your research.
 
 ## 2-factor-authentication
 
-* Amazon AWS MFA (Android) https://www.amazon.com/gp/product/B0061MU68M
 * Authenticator (Windows Phone 7) https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj
 * FreeOTP https://freeotp.github.io/
 * Google Authenticator (Android/iPhone/BlackBerry) https://support.google.com/accounts/answer/1066447?hl=en
