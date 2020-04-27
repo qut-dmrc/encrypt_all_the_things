@@ -425,7 +425,7 @@ Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts y
 
 ## Solution #2:
 
-### PGP encryption
+### PGP
 
 "Pretty Good Privacy"
 
@@ -508,13 +508,13 @@ As well as encrypting messages and files, PGP can be used to sign things:
 
 PGP can also be used to verify peoples public keys - by signing a public key you are saying you are confident that the key belongs to the person it says it belongs to.
 
-On keybase this is done by following people.
+On keybase this is done by following people and posting signed messages on other platforms.
 
 ----
 
 ## And how does signing work?
 
-That's where the metaphor stops working. Ask later :)
+That's where the padlock metaphor stops working. Ask later :)
 
 ----
 
@@ -535,9 +535,13 @@ That's where the metaphor stops working. Ask later :)
 
 ## We recommend
 
+for private messaging:
+
 [Signal](https://whispersystems.org/)
 
-[keybase](https://keybase.io)
+for work/team communications:
+
+[Keybase](https://keybase.io)
 
 ----
 
@@ -545,7 +549,7 @@ That's where the metaphor stops working. Ask later :)
 
 * make sure you confirm that the account you are dealing with (Public Key or Signal account) is who you expect to be at the other end
   * verify using separate channel
-  * for chat, make sure encryption is working before exchanging any critical informaiton
+  * for chat, make sure encryption is working before exchanging any critical information
 * your Keybase account is good for improving security, but you should create fresh PGP keypairs for very secure communications
 
 Note:
@@ -624,6 +628,7 @@ Discuss in groups how what we have covered today applies to your research.
 * Browser leaks https://browserleaks.com
 * HTTPS Everywhere https://www.eff.org/https-everywhere
 * detailed VPN comparison https://thatoneprivacysite.net/
+* ProtonVPN https://protonvpn.com/
 * NordVPN https://nordvpn.com/
 * Private Internet Access https://www.privateinternetaccess.com/
 * Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
@@ -635,7 +640,7 @@ Discuss in groups how what we have covered today applies to your research.
 * Cryptomator https://cryptomator.org/
 * Enigmail for Thunderbird https://www.enigmail.net/index.php/en/
 * GPGTools https://gpgtools.org/
-* keybase https://keybase.io/
+* Keybase https://keybase.io/
 * Signal https://whispersystems.org/
 
 ----
@@ -647,7 +652,6 @@ Discuss in groups how what we have covered today applies to your research.
   * Privacy https://www.eff.org/issues/privacy
   * Surveillance Self-Defense https://ssd.eff.org/
     This has overviews, tutorials, and detailed guides for specific situations.
-* Snitch Hunt Game http://whistleblower.network/snitch/index.php
 * Snitch Hunt news article http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668
 * Examples of Bad SSL certificates https://badssl.com/
 
@@ -671,7 +675,7 @@ Discuss in groups how what we have covered today applies to your research.
 
 ---
 
-![](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
+![](https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/200px-Twitter_bird_logo_2012.svg.png)
 
 [@brendam](https://twitter.com/brendam)
 [@flxvctr](https://twitter.com/flxvctr)
