@@ -142,17 +142,24 @@ Therefore your passwords will be strong, will not be reused, and you don't have 
 
 ----
 
-## We recommend
+## We recommend (1/2)
 
 * KeePass, KeePassXC, KeeWeb
     * Open source +
     * interoperable +
     * high reputation +
     * free +
-    * not so convenient -
+    * inconvenient -
+    * insecure if used incorrectly -
+
+----
+
+## We recommend (2/2)
+
 * 1Password
     * high reputation +
     * very convenient +
+    * encourages best practices +
     * costs money -
     * closed source -
 
@@ -255,6 +262,7 @@ Note:
 ## What is a VPN?
 
 * prevents eavesdropping, e.g. in an open WiFi
+* hides your traffic from your Internet Service Provider
 * hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with
 * can make you appear to be in another country and circumvent DNS or geo-blocking
 * does NOT replace https
@@ -268,11 +276,11 @@ Choose a VPN service which:
 * claims not to store activity records (hard to verify)
 * uses OpenVPN
 * has servers in safe jurisdictions
-* not insert advertising into your browsing stream
+* does not insert advertising into your browsing stream
 
 Remember that if it's too cheap you might be paying in other ways.
 
-[NordVPN](https://nordvpn.com/) and [Private Internet Access](https://www.privateinternetaccess.com/) both have had a long term high reputation. The new [ProtonVPN](https://protonvpn.com/) by the team behind ProtonMail seems to be good too.
+[ProtonVPN](https://protonvpn.com/) (based in Switzerland) by the team behind ProtonMail, [NordVPN](https://nordvpn.com/) (b.i. Panama) and [Private Internet Access](https://www.privateinternetaccess.com/) (b.i. USA) both have had a long term high reputation.
 
 ----
 
