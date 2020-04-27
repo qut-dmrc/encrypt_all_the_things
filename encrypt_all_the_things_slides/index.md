@@ -4,10 +4,6 @@
 
 *(Digital Privacy & Security for Researchers)*
 
-DMRC Summer School Workshop 2019, 11-15 February
-
-Brenda Moon
-
 <font size=0.5>image: http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png
 (based on original by http://hyperboleandahalf.blogspot.com.au/)
 </font>
