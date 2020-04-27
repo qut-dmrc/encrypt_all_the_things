@@ -292,8 +292,8 @@ Remember that if it's too cheap you might be paying in other ways.
 
 ## What is Tor Browser?
 
-* provides secure browser that doesn't leave traces (e.g. it does not store cookies)
-* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
+* provides more secure browser that avoids leaving traces (e.g. it does not store cookies)
+* connects to websites through onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
 * does not prevent you from disclosing your identity e.g. by logging into Facebook
 
 ----
@@ -340,7 +340,11 @@ when storing data:
 
 # backup, backup, backup
 
-3 independent copies, 2 locations, 1 offline
+Follow the **3-2-1 backup rule** and have at least
+
+* **3** independent copies,
+* in **2** locations,
+* of which **1** is offline
 
 Note: research storage - QUT provides properly tape backed up storage for research data (rstore).
 
@@ -365,7 +369,8 @@ AND
     * [keybase](https://keybase.io/)
     * disk image encryption by your operating system
 
-MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
+**MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!!**</br>
+Or all is lost.
 
 Note:
 * Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
@@ -412,7 +417,7 @@ Note:
 * https://www.eff.org/https-everywhere
 
 
-Examples for bad certificates: https://badssl.com/
+Examples for bad certificates: https://badssl.com/dashboard/
 
 Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts your communications with many major websites
 
