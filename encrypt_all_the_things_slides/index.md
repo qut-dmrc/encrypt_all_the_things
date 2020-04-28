@@ -4,23 +4,23 @@
 
 *(Digital Privacy & Security for Researchers)*
 
-DMRC Summer School Workshop 2019, 11-15 February
-
-Brenda Moon
-
 <font size=0.5>image: http://blog.serverfault.com/files/2016/02/encrypt-all-the-things1.png
 (based on original by http://hyperboleandahalf.blogspot.com.au/)
 </font>
 
 ----
 
-https://qut-dmrc.github.io/encrypt_all_the_things/
+Find the slides here:<br/>
+https://qut-dmrc.github.io/encrypt_all_the_things
 
 <font size=3>
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</font>
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br/>
+Feel free to fork, edit, and distribute these slides from here:<br/>
+https://github.com/qut-dmrc/encrypt_all_the_things
+</font>
 
-@brendam | @flxvctr
+Based on work by <a href="https://twitter.com/brendam">@brendam</a> & <a href="https://twitter.com/flxvctr">@flxvctr</a>
 
 ---
 
@@ -142,17 +142,24 @@ Therefore your passwords will be strong, will not be reused, and you don't have 
 
 ----
 
-## We recommend
+## We recommend (1/2)
 
 * KeePass, KeePassXC, KeeWeb
     * Open source +
     * interoperable +
     * high reputation +
     * free +
-    * not so convenient -
+    * inconvenient -
+    * insecure if used incorrectly -
+
+----
+
+## We recommend (2/2)
+
 * 1Password
     * high reputation +
     * very convenient +
+    * encourages best practices +
     * costs money -
     * closed source -
 
@@ -255,6 +262,7 @@ Note:
 ## What is a VPN?
 
 * prevents eavesdropping, e.g. in an open WiFi
+* hides your traffic from your Internet Service Provider
 * hides your IP address (i.e. location, internet provider, other visited websites) from servers you communicate with
 * can make you appear to be in another country and circumvent DNS or geo-blocking
 * does NOT replace https
@@ -268,11 +276,11 @@ Choose a VPN service which:
 * claims not to store activity records (hard to verify)
 * uses OpenVPN
 * has servers in safe jurisdictions
-* not insert advertising into your browsing stream
+* does not insert advertising into your browsing stream
 
 Remember that if it's too cheap you might be paying in other ways.
 
-[NordVPN](https://nordvpn.com/) and [Private Internet Access](https://www.privateinternetaccess.com/) both have had a long term high reputation. The new [ProtonVPN](https://protonvpn.com/) by the team behind ProtonMail seems to be good too.
+[ProtonVPN](https://protonvpn.com/) (based in Switzerland) by the team behind ProtonMail, [NordVPN](https://nordvpn.com/) (b.i. Panama) and [Private Internet Access](https://www.privateinternetaccess.com/) (b.i. USA) both have had a long term high reputation.
 
 ----
 
@@ -284,8 +292,8 @@ Remember that if it's too cheap you might be paying in other ways.
 
 ## What is Tor Browser?
 
-* provides secure browser that doesn't leave traces (e.g. it does not store cookies)
-* onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
+* provides more secure browser that avoids leaving traces (e.g. it does not store cookies)
+* connects to websites through onion-network (encrypted tunnel through encrypted tunnel through encrypted tunnel ...)
 * does not prevent you from disclosing your identity e.g. by logging into Facebook
 
 ----
@@ -332,7 +340,11 @@ when storing data:
 
 # backup, backup, backup
 
-3 independent copies, 2 locations, 1 offline
+Follow the **3-2-1 backup rule** and have at least
+
+* **3** independent copies,
+* in **2** locations,
+* of which **1** is offline
 
 Note: research storage - QUT provides properly tape backed up storage for research data (rstore).
 
@@ -357,7 +369,8 @@ AND
     * [keybase](https://keybase.io/)
     * disk image encryption by your operating system
 
-MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!! Or all will be lost.
+**MAKE SURE YOU NEVER LOOSE YOUR KEYS OR PASSPHRASES!!!**</br>
+Or all is lost.
 
 Note:
 * Most encryption services offer multiple ways of storing your keys or passphrases - take advantage of them, but make sure you store the keys or passphrases securely.
@@ -404,7 +417,7 @@ Note:
 * https://www.eff.org/https-everywhere
 
 
-Examples for bad certificates: https://badssl.com/
+Examples for bad certificates: https://badssl.com/dashboard/
 
 Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts your communications with many major websites
 
@@ -412,7 +425,7 @@ Note: HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts y
 
 ## Solution #2:
 
-### PGP encryption
+### PGP
 
 "Pretty Good Privacy"
 
@@ -495,13 +508,13 @@ As well as encrypting messages and files, PGP can be used to sign things:
 
 PGP can also be used to verify peoples public keys - by signing a public key you are saying you are confident that the key belongs to the person it says it belongs to.
 
-On keybase this is done by following people.
+On keybase this is done by following people and posting signed messages on other platforms.
 
 ----
 
 ## And how does signing work?
 
-That's where the metaphor stops working. Ask later :)
+That's where the padlock metaphor stops working. Ask later :)
 
 ----
 
@@ -522,9 +535,13 @@ That's where the metaphor stops working. Ask later :)
 
 ## We recommend
 
+for private messaging:
+
 [Signal](https://whispersystems.org/)
 
-[keybase](https://keybase.io)
+for work/team communications:
+
+[Keybase](https://keybase.io)
 
 ----
 
@@ -532,7 +549,7 @@ That's where the metaphor stops working. Ask later :)
 
 * make sure you confirm that the account you are dealing with (Public Key or Signal account) is who you expect to be at the other end
   * verify using separate channel
-  * for chat, make sure encryption is working before exchanging any critical informaiton
+  * for chat, make sure encryption is working before exchanging any critical information
 * your Keybase account is good for improving security, but you should create fresh PGP keypairs for very secure communications
 
 Note:
@@ -611,6 +628,7 @@ Discuss in groups how what we have covered today applies to your research.
 * Browser leaks https://browserleaks.com
 * HTTPS Everywhere https://www.eff.org/https-everywhere
 * detailed VPN comparison https://thatoneprivacysite.net/
+* ProtonVPN https://protonvpn.com/
 * NordVPN https://nordvpn.com/
 * Private Internet Access https://www.privateinternetaccess.com/
 * Tor Browser: https://www.torproject.org/projects/torbrowser.html.en
@@ -622,7 +640,7 @@ Discuss in groups how what we have covered today applies to your research.
 * Cryptomator https://cryptomator.org/
 * Enigmail for Thunderbird https://www.enigmail.net/index.php/en/
 * GPGTools https://gpgtools.org/
-* keybase https://keybase.io/
+* Keybase https://keybase.io/
 * Signal https://whispersystems.org/
 
 ----
@@ -634,7 +652,6 @@ Discuss in groups how what we have covered today applies to your research.
   * Privacy https://www.eff.org/issues/privacy
   * Surveillance Self-Defense https://ssd.eff.org/
     This has overviews, tutorials, and detailed guides for specific situations.
-* Snitch Hunt Game http://whistleblower.network/snitch/index.php
 * Snitch Hunt news article http://www.abc.net.au/triplej/programs/hack/how-team-of-pre-teens-found-whisteblower-using-metadata/8113668
 * Examples of Bad SSL certificates https://badssl.com/
 
@@ -658,7 +675,7 @@ Discuss in groups how what we have covered today applies to your research.
 
 ---
 
-![](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
+![](https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/200px-Twitter_bird_logo_2012.svg.png)
 
 [@brendam](https://twitter.com/brendam)
 [@flxvctr](https://twitter.com/flxvctr)
